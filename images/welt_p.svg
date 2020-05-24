@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="713.856" height="373.113" viewBox="0 0 713.856 373.113">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: rgba(159,159,159,0.6);
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(1142.693 -437)">
+    <path id="Union_3" data-name="Union 3" class="cls-1" d="M91.043,372.113S-113.822,204.864,91.025.018L91,0H621.72s204.865,167.249.018,372.1l.025.018Z" transform="translate(-1142.147 437.5)"/>
+    <path id="Union_4" data-name="Union 4" class="cls-2" d="M74.436,304.113s-167.5-136.686-.015-304.1L74.4,0H508.327s167.5,136.686.015,304.1l.021.015Z" transform="translate(-1077.147 471.5)"/>
+    <text id="Welcome_to_Virtual_Poker" data-name="Welcome to Virtual Poker" class="cls-3" transform="translate(-985 528)"><tspan x="64.21" y="72">Welcome to </tspan><tspan x="45.07" y="161">Virtual Poker</tspan></text>
+  </g>
+</svg>

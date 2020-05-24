@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="713.855" height="373.113" viewBox="0 0 713.855 373.113">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #96a747;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-278.307 -436)">
+    <path id="Union_1" data-name="Union 1" class="cls-1" d="M91.043,372.113S-113.822,204.864,91.025.018L91,0H621.72s204.865,167.249.018,372.1l.025.018Z" transform="translate(278.853 436.5)"/>
+    <path id="Union_2" data-name="Union 2" class="cls-2" d="M74.436,304.113s-167.5-136.686-.015-304.1L74.4,0H508.327s167.5,136.686.015,304.1l.021.015Z" transform="translate(343.853 470.5)"/>
+    <text id="Amateur" class="cls-3" transform="translate(537 639)"><tspan x="0" y="0">Amateur</tspan></text>
+  </g>
+</svg>
