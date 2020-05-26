@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Player 1 View</title>
+</head>
+<body>
+<header>
+    <img src="images/Logo.svg" alt="Logo">
+    <h1>Virtual Poker</h1>
+    <p>Team<br>Biobots</p>
+</header>
+
+<nav class="topnav">
+    <a class="active" href="Casino_Homepage.html">Homepage</a>
+    <a href="Poker.html">Poker</a>
+    <a href="">Blackjack</a>
+    <a href="">Roulette</a>
+
+    <div class="dropdown">
+        <button class="dropbtn">Choose Player</button>
+        <div class="dropdown-content">
+            <a href="pla_1.html">Player 1</a>
+            <a href="pla_2.html">Player 2</a>
+            <a href="pla_3.html">Player 3</a>
+            <a href="pla_4.html">Player 4</a>
+            <a href="pla_5.html">Player 5</a>
+            <a href="pla_6.html">Player 6</a>
+        </div>
+      </div>
+    <button class="runbtn">Run Simulation</button>
+</nav>
+
+<aside class="dialogue1">
+    <div>
+        <h2>Match Results</h2>
+        <!-- <p>Match 1:</p>
+        <p>Match 2:</p>
+        <p>Match 3:</p>
+        <p>Match 4:</p>
+        <p>Match 5:</p>
+        <p>Result:</p> -->
+    </div>
+</aside>
+<aside class="dialogue2">
+    <div>
+        <h2>Player Moves</h2>
+        <!-- <p> <img src="images/nov.svg" alt="">Novice</p>
+        <p><img src="images/ama.svg" alt="">Amateur</p>
+        <p><img src="images/ski.svg" alt="">Skilled</p>
+        <p><img src="images/pro.svg" alt="">Pro</p>
+        <p><img src="images/eli.svg" alt="">Elite</p> -->
+   </div>
+</aside>
+
+<img class="player1" src="images/man.svg" alt="Player 1">
+<img class="player2" src="images/woman.svg" alt="Player 2">
+<img class="player3" src="images/man.svg" alt="Player 3">
+<section>
+ <img src="images/sim1.svg" alt="Table">
+</section>
+<img class="player4" src="images/woman.svg" alt="Player 4">
+<img class="player5" src="images/man.svg" alt="Player 5">
+<img class="player6" src="images/woman.svg" alt="Player 6">
+
+
+
+
+
+<!-- Attempting to make dynamic textbox using data from json file -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+
+
+<script type="text/javascript" src="js/Poker1.json"></script>
+
+<!-- <script type="text/javascript" >
+    function load() {
+        var ids = JSON.parse(data);
+
+        var div = document.getElementById('data');
+
+        for(var i = 0;i < mydata.length; i++)
+        {
+            div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ ids[i].Player_ID +"</p>" + "<br>";
+        }
+    }
+</script> -->
+
+
+<div class="playerIDs">
+
+   
+    <div class="playerID1">
+        player1 ID
+    </div>
+    <div class="playerID2">
+        player2 ID
+    </div>
+
+    <div class="playerID3">
+        player3 ID
+    </div>
+
+    <div class="playerID4">
+        player4 ID
+    </div>
+
+    <div class="playerID5">
+        player5 ID
+    </div>
+
+    <div class="playerID6">
+        player6 ID
+    </div>
+
+</div>
+
+
+
+</body>
