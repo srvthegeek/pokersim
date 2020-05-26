@@ -235,8 +235,8 @@ body .player1{
   border-radius: 2px;
   background-color: rgb(224, 123, 140);
   color:  #ffffff;
-  /* width: fit-content;
-  height: fit-content;
+  /* width: -moz-fit-content;
+  height: -moz-fit-content;
   position: relative;
   top: -84vh;
   left: 31px; */
@@ -247,8 +247,8 @@ body .player1{
   left: 30vh;
   right: 0px;
   bottom: 0px; 
-  width: fit-content;
-  height: fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
   background-color: #000000;
 }
 
@@ -258,8 +258,8 @@ body .player1{
   left: 83vh;
   right: 0px;
   bottom: 0px; 
-  width: fit-content;
-  height: fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
   background-color: #000000;
 }
 
@@ -269,8 +269,8 @@ body .player1{
   left: 111vh;
   right: 0px;
   bottom: 0px;  
-  width: fit-content;
-  height: fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
   background-color: #000000;
 }
 
@@ -280,8 +280,8 @@ body .player1{
   left: 85vh;
   right: 0px;
   bottom: 0px;  
-  width: fit-content;
-  height: fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
   background-color: #000000;
 }
 
@@ -291,8 +291,8 @@ body .player1{
   left: 28vh;
   right: 0px;
   bottom: 0px;  
-  width: fit-content;
-  height: fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
   background-color: #000000;
 }
 
@@ -302,7 +302,7 @@ body .player1{
   left: 4vh;
   right: 0px;
   bottom: 0px;  
-  width: fit-content;
-  height: fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
   background-color: #000000;
 }
