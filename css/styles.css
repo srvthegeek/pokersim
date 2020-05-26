@@ -177,10 +177,10 @@ section{
     margin-top: -60vh;
     margin-left: 15vh;
 }
-body .player1{
+/* body .player1{
     position: relative;
-    top: -60vh;
-    left: 30vh;
+    top: -70vh;
+    left: 20vh;
     right: 0px;
     bottom: 0px; 
 
@@ -188,65 +188,70 @@ body .player1{
 
 .player2{
   position: relative;
-    top: -60vh;
-    left: 75vh;
+    top: -70vh;
+    left: 50vh;
     right: 0px;
     bottom: 0px; 
 }
 
 .player3{
   position: relative;
-    top: -30vh;
-    left: 95vh;
+    top: -70vh;
+    left: 80vh;
     right: 0px;
     bottom: 0px; 
 }
 
 .player4{
   position: relative;
-    top: 0vh;
-    left: 85vh;
+    top: -50vh;
+    left: -4.5vh;
     right: 0px;
     bottom: 0px; 
 }
 
 .player5{
   position: relative;
-    top: 0vh;
-    left: 20vh;
+    top: -50vh;
+    left: 25vh;
     right: 0px;
     bottom: 0px; 
 }
 
 .player6{
   position: relative;
-    top: -30vh;
-    left: -12vh;
+    top: -50vh;
+    left: 55vh;
     right: 0px;
     bottom: 0px; 
-}
+}*/
 
 
 .playerIDs{
   color: #ffffff;
+  display: -moz-inline-grid;
+  display: inline-grid;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
+  /* background-color: #000000; */
+  position: relative;
+  top: -55vh;
+  left: 10vh;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 100px 100px;
+  grid-template-rows: 60px 80px 100px;
 }
 .active_pla{
   border: solid 2px #ffffff;
   border-radius: 2px;
   background-color: rgb(224, 123, 140);
   color:  #ffffff;
-  /* width: -moz-fit-content;
+  width: -moz-fit-content;
   height: -moz-fit-content;
-  position: relative;
-  top: -84vh;
-  left: 31px; */
 }
-.playerID1{
-  position: relative;
-  top: -80vh;
-  left: 30vh;
-  right: 0px;
-  bottom: 0px; 
+/* .playerID1{
   width: -moz-fit-content;
   height: -moz-fit-content;
   width: fit-content;
@@ -255,11 +260,6 @@ body .player1{
 }
 
 .playerID2{
-  position: relative;
-  top: -83.5vh;
-  left: 83vh;
-  right: 0px;
-  bottom: 0px; 
   width: -moz-fit-content;
   height: -moz-fit-content;
   width: fit-content;
@@ -267,12 +267,7 @@ body .player1{
   background-color: #000000;
 }
 
-.playerID3{
-  position: relative;
-  top: -36vh;
-  left: 111vh;
-  right: 0px;
-  bottom: 0px;  
+.playerID3{ 
   width: -moz-fit-content;
   height: -moz-fit-content;
   width: fit-content;
@@ -280,12 +275,7 @@ body .player1{
   background-color: #000000;
 }
 
-.playerID4{
-  position: relative;
-  top: -8vh;
-  left: 85vh;
-  right: 0px;
-  bottom: 0px;  
+.playerID4{ 
   width: -moz-fit-content;
   height: -moz-fit-content;
   width: fit-content;
@@ -293,12 +283,7 @@ body .player1{
   background-color: #000000;
 }
 
-.playerID5{
-  position: relative;
-  top: -11vh;
-  left: 28vh;
-  right: 0px;
-  bottom: 0px;  
+.playerID5{ 
   width: -moz-fit-content;
   height: -moz-fit-content;
   width: fit-content;
@@ -306,15 +291,31 @@ body .player1{
   background-color: #000000;
 }
 
-.playerID6{
-  position: relative;
-  top: -44vh;
-  left: 4vh;
-  right: 0px;
-  bottom: 0px;  
+.playerID6{ 
   width: -moz-fit-content;
   height: -moz-fit-content;
   width: fit-content;
   height: fit-content;
   background-color: #000000;
+} */
+
+
+
+.matchresults{
+  color: #ffffff;
+}
+
+.simresults{
+  color: #ffffff;
+}
+
+
+.grid-container {
+  position: relative;
+  top: -125vh;
+  left: 10vh;
+  display: -moz-inline-grid;
+  display: inline-grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 80px 100px;
 }

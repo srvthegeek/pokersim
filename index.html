@@ -27,20 +27,22 @@
             <a href="pla_4.html">Player 4</a>
             <a href="pla_5.html">Player 5</a>
             <a href="pla_6.html">Player 6</a>
+            <a href="pla_7.html">Player 7</a>
+            <a href="pla_8.html">Player 8</a>
+            <a href="pla_9.html">Player 9</a>
         </div>
       </div>
-    <button class="runbtn">Run Simulation</button>
+    <button class="runbtn" onclick="setTimeout(showresult, 1000)">Run Simulation</button>
 </nav>
 
+<script type="text/javascript" src="showresult.js"></script>
+
 <aside class="dialogue1">
-    <div>
+    <div class="matchresults">
         <h2>Match Results</h2>
-        <!-- <p>Match 1:</p>
-        <p>Match 2:</p>
-        <p>Match 3:</p>
-        <p>Match 4:</p>
-        <p>Match 5:</p>
-        <p>Result:</p> -->
+        Initial Cluster: 
+        <br>
+        <div id="show1" style="display: none;">Final Cluster: </div>
     </div>
 </aside>
 <aside class="dialogue2">
@@ -54,15 +56,15 @@
    </div>
 </aside>
 
-<img class="player1" src="images/man.svg" alt="Player 1">
-<img class="player2" src="images/woman.svg" alt="Player 2">
-<img class="player3" src="images/man.svg" alt="Player 3">
-<section>
+<!-- <img class="player1" src="images/man.svg" alt="Player 1"> -->
+<!-- <img class="player2" src="images/woman.svg" alt="Player 2"> -->
+<!-- <img class="player3" src="images/man.svg" alt="Player 3"> -->
+<!-- <section>
  <img src="images/sim1.svg" alt="Table">
-</section>
-<img class="player4" src="images/woman.svg" alt="Player 4">
-<img class="player5" src="images/man.svg" alt="Player 5">
-<img class="player6" src="images/woman.svg" alt="Player 6">
+</section> -->
+<!-- <img class="player4" src="images/woman.svg" alt="Player 4"> -->
+<!-- <img class="player5" src="images/man.svg" alt="Player 5"> -->
+<!-- <img class="player6" src="images/woman.svg" alt="Player 6"> -->
 
 
 
@@ -116,7 +118,60 @@
         player6
     </div>
 
+    <div class="playerID7">
+        player7
+    </div>
+
+    <div class="playerID8">
+        player8
+    </div>
+
+    <div class="playerID9">
+        player9
+    </div>
+
 </div>
+
+
+
+<div class="grid-container">
+
+    <div class="grid-item">
+        <img class="player1" src="images/man.svg" alt="Player 1">
+    </div>
+
+    <div class="grid-item">
+        <img class="player2" src="images/woman.svg" alt="Player 2">
+    </div>
+
+    <div class="grid-item">
+        <img class="player3" src="images/man.svg" alt="Player 3">
+    </div>
+
+    <div class="grid-item">
+        <img class="player4" src="images/woman.svg" alt="Player 4">
+    </div>
+
+    <div class="grid-item">
+        <img class="player5" src="images/man.svg" alt="Player 5">
+    </div>
+
+    <div class="grid-item">
+        <img class="player6" src="images/woman.svg" alt="Player 6">
+    </div>
+
+    <div class="grid-item">
+        <img class="player7" src="images/man.svg" alt="Player 7">
+    </div>
+    <div class="grid-item">
+        <img class="player8" src="images/woman.svg" alt="Player 8">
+    </div>
+    <div class="grid-item">
+        <img class="player9" src="images/man.svg" alt="Player 9">
+    </div>
+
+  </div>
+  
 
 
 

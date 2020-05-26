@@ -1,0 +1,65 @@
+[
+    {
+        "Player_ID": "2Ez5c6bXau0gBfNkgjka6w",
+        "cluster": "0",
+        "matches_played": "60",
+        "num_wins": "9",
+        "win_percent": "0.15"
+    },
+    {
+        "Player_ID": "/P+7Z0P/b7YiK60FW9dRAQ",
+        "cluster": "3",
+        "matches_played": "42",
+        "num_wins": "14",
+        "win_percent": "0.333333333"
+    },
+    {
+        "Player_ID": "+38WdZ4L8J7gkKBgk8Y+aQ",
+        "cluster": "4",
+        "matches_played": "32",
+        "num_wins": "9",
+        "win_percent": "0.28125"
+    },
+    {
+        "Player_ID": "54c64l5WMSZB3aVozJsbfw",
+        "cluster": "1",
+        "matches_played": "85",
+        "num_wins": "44",
+        "win_percent": "0.517647059"
+    },
+    {
+        "Player_ID": "SHDYatkODd0S2IdkfkGYtQ",
+        "cluster": "2",
+        "matches_played": "50",
+        "num_wins": "25",
+        "win_percent": "0.5"
+    },
+    {
+        "Player_ID": "Acd3T58vNojvxt5FPy7D0g",
+        "cluster": "1",
+        "matches_played": "106",
+        "num_wins": "33",
+        "win_percent": "0.311320755"
+    },
+    {
+        "Player_ID": "4QICpZ6v7I+i8nJKeSSE8Q",
+        "cluster": "0",
+        "matches_played": "101",
+        "num_wins": "17",
+        "win_percent": "0.168316832"
+    },
+    {
+        "Player_ID": "ZY9O2Uu8JFr2/I+nXQPmRQ",
+        "cluster": "4",
+        "matches_played": "15",
+        "num_wins": "4",
+        "win_percent": "0.266666667"
+    },
+    {
+        "Player_ID": "epIGkJOIv27KyGGFJpXONg",
+        "cluster": "3",
+        "matches_played": "49",
+        "num_wins": "15",
+        "win_percent": "0.306122449"
+    }
+]
