@@ -169,7 +169,7 @@ aside img{
     margin-top: 5px;
     margin-right: 7px;
     padding: -4px;
-    opacity: 0.8;
+    
 }
 section{
     display: block;
@@ -177,14 +177,6 @@ section{
     margin-top: -60vh;
     margin-left: 15vh;
 }
-
-
-.wrapper{
-  position: absolute;
-  width: 100em;
-  height: 25em;
-}
-
 body .player1{
     position: relative;
     top: -60vh;
@@ -236,16 +228,19 @@ body .player1{
 
 
 .playerIDs{
-  position: absolute;
   color: #ffffff;
-  width: 100em;
-  font-size: small;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-  
 }
-
+.active_pla{
+  border: solid 2px #ffffff;
+  border-radius: 2px;
+  background-color: rgb(224, 123, 140);
+  color:  #ffffff;
+  /* width: fit-content;
+  height: fit-content;
+  position: relative;
+  top: -84vh;
+  left: 31px; */
+}
 .playerID1{
   position: relative;
   top: -80vh;
