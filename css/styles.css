@@ -249,6 +249,8 @@ body .player1{
   bottom: 0px; 
   width: -moz-fit-content;
   height: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
   background-color: #000000;
 }
 
@@ -260,6 +262,8 @@ body .player1{
   bottom: 0px; 
   width: -moz-fit-content;
   height: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
   background-color: #000000;
 }
 
@@ -271,6 +275,8 @@ body .player1{
   bottom: 0px;  
   width: -moz-fit-content;
   height: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
   background-color: #000000;
 }
 
@@ -282,6 +288,8 @@ body .player1{
   bottom: 0px;  
   width: -moz-fit-content;
   height: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
   background-color: #000000;
 }
 
@@ -293,6 +301,8 @@ body .player1{
   bottom: 0px;  
   width: -moz-fit-content;
   height: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
   background-color: #000000;
 }
 
@@ -304,5 +314,7 @@ body .player1{
   bottom: 0px;  
   width: -moz-fit-content;
   height: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
   background-color: #000000;
 }
