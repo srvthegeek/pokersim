@@ -30,11 +30,12 @@
             <a href="pla_5.html">Wendy</a>
         </div>
       </div>
-    <button class="joinlobby" onclick="location.href='lobbysim1.html'">Join Lobby</button>
-    <button class="runbtn" onclick="setTimeout(showresult, 1200)">Run Simulation</button>
+    <button class="joinlobby" onclick="setTimeout(redirect5, 1200)">Join Lobby</button>
+    <button class="runbtn" id="runbtn" onclick="setTimeout(showresult, 800)">Run Simulation</button>
 </nav>
 
 <script type="text/javascript" src="showresult.js"></script>
+<script type="text/javascript" src="redirect.js"></script>
 <script type="text/javascript" src="pok_train.js"></script>
 <script type="text/javascript" src="pok_test.js"></script>
 
@@ -46,7 +47,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('matches_played');
-                output1.innerHTML = 'Matches Played: '+userdata[0].matches_played;
+                output1.innerHTML = 'Matches Played: '+userdata[4].matches_played;
             </script>
             <br>
         </div>
@@ -55,7 +56,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('winpercent');
-                output1.innerHTML = 'Win Percentage: '+userdata[0].win_percent;
+                output1.innerHTML = 'Win Percentage: '+userdata[4].win_percent;
             </script>
             <br>
         </div>
@@ -64,7 +65,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('cluster');
-                output1.innerHTML = 'Current Cluster: '+userdata[0].cluster;
+                output1.innerHTML = 'Current Cluster: '+userdata[4].cluster;
             </script>
             <br>
         </div>
@@ -73,7 +74,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('rating');
-                output1.innerHTML = 'Rating: '+userdata[0].rating;
+                output1.innerHTML = 'Rating: '+userdata[4].rating;
             </script>
             <br>
         </div>
@@ -84,13 +85,13 @@
     <div>
         <h2>Simulation Results</h2>
 
-    <div class="simresults" style="display: block;" id="showsimresults">
+    <div class="simresults" style="display: none;" id="showsimresults">
 
         <div id="matchesplayed">
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('matchesplayed');
-                output1.innerHTML = 'Matches played through simulation: '+userdata[0].matches_played;
+                output1.innerHTML = 'Matches played through simulation: '+userdata[4].matches_played;
             </script>
             <br>
         </div>
@@ -99,7 +100,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('winpercentfinal');
-                output1.innerHTML = 'Win Percentage: '+userdata[0].win_percent;
+                output1.innerHTML = 'Win Percentage: '+userdata[4].win_percent;
             </script>
             <br>
         </div>
@@ -108,7 +109,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('clusterfinal');
-                output1.innerHTML = 'final Cluster: '+userdata[0].cluster;
+                output1.innerHTML = 'final Cluster: '+userdata[4].cluster;
             </script>
             <br>
         </div>
@@ -117,7 +118,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('rating1');
-                output1.innerHTML = 'Rating: '+userdata[0].rating;
+                output1.innerHTML = 'Rating: '+userdata[4].rating;
             </script>
             <br>
         </div>
@@ -142,32 +143,52 @@
 <script type="text/javascript" src="js/Poker1.json"></script>
 
 
+
+
+
 <div class="playerIDs">
 
    
     <div class="playerID1 active_pla">
         <div id="name1">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_test);
+                var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('name1');
-                output1.innerHTML = userdata[0].name;
+                output1.innerHTML = userdata[4].name;
             </script>
             <br>
         </div>
         <div id="cluster1">
             <script type="text/javascript">
+                var userdata = JSON.parse(pok_train);
+                var output1 = document.getElementById('cluster1');
+                output1.innerHTML = 'Cluster: '+userdata[4].cluster;
+
+                document.getElementById("runbtn").addEventListener("click", change);
+
+                function change() {
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('cluster1');
-                output1.innerHTML = 'Cluster: '+userdata[0].cluster;
+                output1.innerHTML = 'Cluster: '+userdata[4].cluster;
+                }
+
             </script>
             <br>
         </div>
 
         <div id="rating2">
             <script type="text/javascript">
+                var userdata = JSON.parse(pok_train);
+                var output1 = document.getElementById('rating2');
+                output1.innerHTML = 'Rating: '+userdata[4].rating;
+
+                document.getElementById("runbtn").addEventListener("click", change);
+
+                function change() {
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('rating2');
-                output1.innerHTML = 'Rating: '+userdata[0].rating;
+                output1.innerHTML = 'Rating: '+userdata[4].rating;
+                }
             </script>
             <br>
         </div>
@@ -178,8 +199,8 @@
         //  let random_player = pok_train[Math.floor(Math.random() * pok_train.length)];
 
         for (let i=0; i<100; i++){
-        var random_player1 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player1.cluster == 0 && random_player1.name !== 'Rosabelle') {
+        var random_player1 = JSON.parse(pok_train)[Math.floor(Math.random() * 117)];
+         if(random_player1.cluster == 1 && random_player1.name !== 'Wendy') {
             console.log(random_player1.cluster)
             console.log(random_player1)
             break;
@@ -194,6 +215,15 @@
                 var userdata = random_player1;
                 var output1 = document.getElementById('name2');
                 output1.innerHTML = userdata.name;
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('name2');
+                output1.innerHTML = ' ';
+                }
+
+
             </script>
             <br>
         </div>
@@ -202,6 +232,15 @@
                 var userdata = random_player1;
                 var output1 = document.getElementById('cluster2');
                 output1.innerHTML = 'Cluster: '+userdata.cluster;
+
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('cluster2');
+                output1.innerHTML = ' ';
+                }
+
             </script>
             <br>
         </div>
@@ -211,16 +250,24 @@
                 var userdata = random_player1;
                 var output1 = document.getElementById('rating3');
                 output1.innerHTML = 'Rating: '+userdata.rating;
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('rating3');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
+
     </div>
 
     <script>
 
         for (let i=0; i<100; i++){
-        var random_player2 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player2.cluster == 0 && random_player2.name !== 'Rosabelle' && random_player2.name !== random_player1.name) {
+        var random_player2 = JSON.parse(pok_train)[Math.floor(Math.random() * 117)];
+         if(random_player2.cluster == 1 && random_player2.name !== 'Wendy' && random_player2.name !== random_player1.name) {
             console.log(random_player2.cluster)
             console.log(random_player2)
             break;
@@ -236,6 +283,14 @@
                 var userdata = random_player2;
                 var output1 = document.getElementById('name3');
                 output1.innerHTML = userdata.name;
+
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('name3');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -244,6 +299,15 @@
                 var userdata = random_player2;
                 var output1 = document.getElementById('cluster3');
                 output1.innerHTML = 'Cluster: '+userdata.cluster;
+
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('cluster3');
+                output1.innerHTML = ' ';
+                }
+
             </script>
             <br>
         </div>
@@ -253,6 +317,15 @@
                 var userdata = random_player2;
                 var output1 = document.getElementById('rating4');
                 output1.innerHTML = 'Rating: '+userdata.rating;
+
+
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('rating4');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -261,8 +334,8 @@
     <script>
 
         for (let i=0; i<100; i++){
-        var random_player3 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player3.cluster == 0 && random_player3.name !== 'Rosabelle' && random_player3.name !== random_player1.name && random_player3.name !== random_player2.name) {
+        var random_player3 = JSON.parse(pok_train)[Math.floor(Math.random() * 117)];
+         if(random_player3.cluster == 1 && random_player3.name !== 'Wendy' && random_player3.name !== random_player1.name && random_player3.name !== random_player2.name) {
             console.log(random_player3.cluster)
             console.log(random_player3)
             break;
@@ -278,6 +351,14 @@
                 var userdata = random_player3;
                 var output1 = document.getElementById('name4');
                 output1.innerHTML = userdata.name;
+
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('name4');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -286,6 +367,14 @@
                 var userdata = random_player3;
                 var output1 = document.getElementById('cluster4');
                 output1.innerHTML = 'Cluster: '+userdata.cluster;
+
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('cluster4');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -295,6 +384,15 @@
                 var userdata = random_player3;
                 var output1 = document.getElementById('rating5');
                 output1.innerHTML = 'Rating: '+userdata.rating;
+
+
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('rating5');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -304,8 +402,8 @@
     <script>
 
         for (let i=0; i<100; i++){
-        var random_player4 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player4.cluster == 0 && random_player4.name !== 'Rosabelle' && random_player4.name !== random_player1.name && random_player4.name !== random_player2.name && random_player4.name !== random_player3.name) {
+        var random_player4 = JSON.parse(pok_train)[Math.floor(Math.random() * 117)];
+         if(random_player4.cluster == 1 && random_player4.name !== 'Wendy' && random_player4.name !== random_player1.name && random_player4.name !== random_player2.name && random_player4.name !== random_player3.name) {
             console.log(random_player4.cluster)
             console.log(random_player4)
             break;
@@ -321,6 +419,13 @@
                 var userdata = random_player4;
                 var output1 = document.getElementById('name5');
                 output1.innerHTML = userdata.name;
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('name5');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -329,6 +434,13 @@
                 var userdata = random_player4;
                 var output1 = document.getElementById('cluster5');
                 output1.innerHTML = 'Cluster: '+userdata.cluster;
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('cluster5');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -338,6 +450,13 @@
                 var userdata = random_player4;
                 var output1 = document.getElementById('rating6');
                 output1.innerHTML = 'Rating: '+userdata.rating;
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('rating6');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -347,8 +466,8 @@
     <script>
 
         for (let i=0; i<100; i++){
-        var random_player5 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player5.cluster == 0 && random_player5.name !== 'Rosabelle' && random_player5.name !== random_player1.name && random_player5.name !== random_player2.name && random_player5.name !== random_player3.name && random_player5.name !== random_player4.name) {
+        var random_player5 = JSON.parse(pok_train)[Math.floor(Math.random() * 117)];
+         if(random_player5.cluster == 1 && random_player5.name !== 'Wendy' && random_player5.name !== random_player1.name && random_player5.name !== random_player2.name && random_player5.name !== random_player3.name && random_player5.name !== random_player4.name) {
             console.log(random_player4.cluster)
             console.log(random_player4)
             break;
@@ -364,6 +483,14 @@
                 var userdata = random_player5;
                 var output1 = document.getElementById('name6');
                 output1.innerHTML = userdata.name;
+
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('name6');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -372,6 +499,13 @@
                 var userdata = random_player5;
                 var output1 = document.getElementById('cluster6');
                 output1.innerHTML = 'Cluster: '+userdata.cluster;
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('cluster6');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>
@@ -381,6 +515,13 @@
                 var userdata = random_player5;
                 var output1 = document.getElementById('rating7');
                 output1.innerHTML = 'Rating: '+userdata.rating;
+
+                document.getElementById("runbtn").addEventListener("click", clear);
+
+                function clear() {
+                var output1 = document.getElementById('rating7');
+                output1.innerHTML = ' ';
+                }
             </script>
             <br>
         </div>

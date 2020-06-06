@@ -250,10 +250,10 @@ section{
   height: fit-content;
   /* background-color: #000000; */
   position: relative;
-  top: -55vh;
+  top: -70vh;
   left: 10vh;
   grid-template-columns: 200px 200px 200px;
-  grid-gap: 300px 100px;
+  grid-gap: 400px 100px;
   grid-template-rows: 80px 80px 100px;
 }
 .active_pla{
@@ -273,6 +273,19 @@ section{
 
 .simresults{
   color: #ffffff;
+}
+
+
+.table2 {
+  height: 50vh;
+  width: 90vh;
+  top: 42vh;
+  left: 20vh;
+  position: absolute;
+}
+
+.team {
+  text-align: right;
 }
 
 

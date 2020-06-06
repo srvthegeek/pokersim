@@ -30,7 +30,7 @@
             <a href="pla_5.html">Wendy</a>
         </div>
       </div>
-    <button class="joinlobby" onclick="location.href='lobbysim1.html'">Join Lobby</button>
+    <button class="joinlobby" onclick="location.href='lobbysim5.html'">Join Lobby</button>
     <button class="runbtn" onclick="setTimeout(showresult, 1200)">Run Simulation</button>
 </nav>
 
@@ -46,7 +46,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('matches_played');
-                output1.innerHTML = 'Matches Played: '+userdata[0].matches_played;
+                output1.innerHTML = 'Matches Played: '+userdata[4].matches_played;
             </script>
             <br>
         </div>
@@ -55,7 +55,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('winpercent');
-                output1.innerHTML = 'Win Percentage: '+userdata[0].win_percent;
+                output1.innerHTML = 'Win Percentage: '+userdata[4].win_percent;
             </script>
             <br>
         </div>
@@ -64,7 +64,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('cluster');
-                output1.innerHTML = 'Current Cluster: '+userdata[0].cluster;
+                output1.innerHTML = 'Current Cluster: '+userdata[4].cluster;
             </script>
             <br>
         </div>
@@ -73,7 +73,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('rating');
-                output1.innerHTML = 'Rating: '+userdata[0].rating;
+                output1.innerHTML = 'Rating: '+userdata[4].rating;
             </script>
             <br>
         </div>
@@ -90,7 +90,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('matchesplayed');
-                output1.innerHTML = 'Matches played through simulation: '+userdata[0].matches_played;
+                output1.innerHTML = 'Matches played through simulation: '+userdata[4].matches_played;
             </script>
             <br>
         </div>
@@ -99,7 +99,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('winpercentfinal');
-                output1.innerHTML = 'Win Percentage: '+userdata[0].win_percent;
+                output1.innerHTML = 'Win Percentage: '+userdata[4].win_percent;
             </script>
             <br>
         </div>
@@ -108,7 +108,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('clusterfinal');
-                output1.innerHTML = 'final Cluster: '+userdata[0].cluster;
+                output1.innerHTML = 'final Cluster: '+userdata[4].cluster;
             </script>
             <br>
         </div>
@@ -117,7 +117,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('rating1');
-                output1.innerHTML = 'Rating: '+userdata[0].rating;
+                output1.innerHTML = 'Rating: '+userdata[4].rating;
             </script>
             <br>
         </div>
@@ -150,7 +150,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('name1');
-                output1.innerHTML = userdata[0].name;
+                output1.innerHTML = userdata[4].name;
             </script>
             <br>
         </div>
@@ -158,7 +158,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('cluster1');
-                output1.innerHTML = 'Cluster: '+userdata[0].cluster;
+                output1.innerHTML = 'Cluster: '+userdata[4].cluster;
             </script>
             <br>
         </div>
@@ -167,7 +167,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('rating2');
-                output1.innerHTML = 'Rating: '+userdata[0].rating;
+                output1.innerHTML = 'Rating: '+userdata[4].rating;
             </script>
             <br>
         </div>
@@ -179,7 +179,7 @@
 
         for (let i=0; i<100; i++){
         var random_player1 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player1.cluster == 0 && random_player1.name !== 'Rosabelle') {
+         if(random_player1.cluster == 2 && random_player1.name !== 'Wendy') {
             console.log(random_player1.cluster)
             console.log(random_player1)
             break;
@@ -220,7 +220,7 @@
 
         for (let i=0; i<100; i++){
         var random_player2 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player2.cluster == 0 && random_player2.name !== 'Rosabelle' && random_player2.name !== random_player1.name) {
+         if(random_player2.cluster == 2 && random_player2.name !== 'Wendy' && random_player2.name !== random_player1.name) {
             console.log(random_player2.cluster)
             console.log(random_player2)
             break;
@@ -262,7 +262,7 @@
 
         for (let i=0; i<100; i++){
         var random_player3 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player3.cluster == 0 && random_player3.name !== 'Rosabelle' && random_player3.name !== random_player1.name && random_player3.name !== random_player2.name) {
+         if(random_player3.cluster == 2 && random_player3.name !== 'Wendy' && random_player3.name !== random_player1.name && random_player3.name !== random_player2.name) {
             console.log(random_player3.cluster)
             console.log(random_player3)
             break;
@@ -305,7 +305,7 @@
 
         for (let i=0; i<100; i++){
         var random_player4 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player4.cluster == 0 && random_player4.name !== 'Rosabelle' && random_player4.name !== random_player1.name && random_player4.name !== random_player2.name && random_player4.name !== random_player3.name) {
+         if(random_player4.cluster == 2 && random_player4.name !== 'Wendy' && random_player4.name !== random_player1.name && random_player4.name !== random_player2.name && random_player4.name !== random_player3.name) {
             console.log(random_player4.cluster)
             console.log(random_player4)
             break;
@@ -348,7 +348,7 @@
 
         for (let i=0; i<100; i++){
         var random_player5 = JSON.parse(pok_test)[Math.floor(Math.random() * 56)];
-         if(random_player5.cluster == 0 && random_player5.name !== 'Rosabelle' && random_player5.name !== random_player1.name && random_player5.name !== random_player2.name && random_player5.name !== random_player3.name && random_player5.name !== random_player4.name) {
+         if(random_player5.cluster == 2 && random_player5.name !== 'Wendy' && random_player5.name !== random_player1.name && random_player5.name !== random_player2.name && random_player5.name !== random_player3.name && random_player5.name !== random_player4.name) {
             console.log(random_player4.cluster)
             console.log(random_player4)
             break;

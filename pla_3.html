@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Player 3 View</title>
+    <title>Player 1 View</title>
 </head>
 <body>
 <header>
     <img src="images/Logo.svg" alt="Logo">
     <h1>Virtual Poker</h1>
-    <p>Team<br>Biobots</p>
+    <p id="team">Team<br>Biobots</p>
 </header>
+
+<script> var counter = 0; </script>
 
 <nav class="topnav">
     <a class="active" href="Casino_Homepage.html">Homepage</a>
@@ -21,46 +23,38 @@
     <div class="dropdown">
         <button class="dropbtn">Choose Player</button>
         <div class="dropdown-content">
-            <a href="pla_1.html">Player 1</a>
-            <a href="pla_2.html">Player 2</a>
-            <a href="pla_3.html">Player 3</a>
-            <a href="pla_4.html">Player 4</a>
-            <a href="pla_5.html">Player 5</a>
+            <a href="pla_1.html">Rosabelle</a>
+            <a href="pla_2.html">Catherine</a>
+            <a href="pla_3.html">Harlan</a>
+            <a href="pla_4.html">Kevin</a>
+            <a href="pla_5.html">Wendy</a>
         </div>
       </div>
-    <button class="runbtn" onclick="setTimeout(showresult, 1200)">Run Simulation</button>
+    <button class="joinlobby" onclick="setTimeout(redirect3, 1200)">Join Lobby</button>
+    <button class="runbtn" id="runbtn" onclick="setTimeout(showresult, 800)">Run Simulation</button>
 </nav>
 
-
 <script type="text/javascript" src="showresult.js"></script>
-<script type="text/javascript" src="Initial.js"></script>
-<script type="text/javascript" src="Final.js"></script>
+<script type="text/javascript" src="redirect.js"></script>
+<script type="text/javascript" src="pok_train.js"></script>
+<script type="text/javascript" src="pok_test.js"></script>
 
 <aside class="dialogue1">
     <div class="matchresults">
         <h2>Lifetime Stats</h2>
-        <!-- Initial Cluster:  -->
+        <!-- pok_train Cluster:  -->
         <div id="matches_played">
             <script type="text/javascript">
-                var userdata = JSON.parse(initial);
+                var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('matches_played');
                 output1.innerHTML = 'Matches Played: '+userdata[2].matches_played;
             </script>
             <br>
         </div>
 
-        <div id="numberofwins">
-            <script type="text/javascript">
-                var userdata = JSON.parse(initial);
-                var output1 = document.getElementById('numberofwins');
-                output1.innerHTML = 'Number of Wins: '+userdata[2].num_wins;
-            </script>
-            <br>
-        </div>
-
         <div id="winpercent">
             <script type="text/javascript">
-                var userdata = JSON.parse(initial);
+                var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('winpercent');
                 output1.innerHTML = 'Win Percentage: '+userdata[2].win_percent;
             </script>
@@ -69,13 +63,22 @@
 
         <div id="cluster">
             <script type="text/javascript">
-                var userdata = JSON.parse(initial);
+                var userdata = JSON.parse(pok_train);
                 var output1 = document.getElementById('cluster');
                 output1.innerHTML = 'Current Cluster: '+userdata[2].cluster;
             </script>
             <br>
         </div>
-        <!-- <div id="show1" style="display: none;">Final Cluster: </div> -->
+
+        <div id="rating">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pok_train);
+                var output1 = document.getElementById('rating');
+                output1.innerHTML = 'Rating: '+userdata[2].rating;
+            </script>
+            <br>
+        </div>
+        <!-- <div id="show1" style="display: none;">pok_test Cluster: </div> -->
     </div>
 </aside>
 <aside class="dialogue2">
@@ -86,25 +89,16 @@
 
         <div id="matchesplayed">
             <script type="text/javascript">
-                var userdata = JSON.parse(final);
+                var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('matchesplayed');
                 output1.innerHTML = 'Matches played through simulation: '+userdata[2].matches_played;
             </script>
             <br>
         </div>
 
-        <div id="numwins">
-            <script type="text/javascript">
-                var userdata = JSON.parse(final);
-                var output1 = document.getElementById('numwins');
-                output1.innerHTML = 'Number of Wins: '+userdata[2].num_wins;
-            </script>
-            <br>
-        </div>
-
         <div id="winpercentfinal">
             <script type="text/javascript">
-                var userdata = JSON.parse(final);
+                var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('winpercentfinal');
                 output1.innerHTML = 'Win Percentage: '+userdata[2].win_percent;
             </script>
@@ -113,9 +107,18 @@
 
         <div id="clusterfinal">
             <script type="text/javascript">
-                var userdata = JSON.parse(final);
+                var userdata = JSON.parse(pok_test);
                 var output1 = document.getElementById('clusterfinal');
-                output1.innerHTML = 'Final Cluster: '+userdata[2].cluster;
+                output1.innerHTML = 'final Cluster: '+userdata[2].cluster;
+            </script>
+            <br>
+        </div>
+
+        <div id="rating1">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pok_test);
+                var output1 = document.getElementById('rating1');
+                output1.innerHTML = 'Rating: '+userdata[2].rating;
             </script>
             <br>
         </div>
@@ -125,17 +128,10 @@
    </div>
 </aside>
 
-<!-- <img class="player1" src="images/man.svg" alt="Player 1">
-<img class="player2" src="images/woman.svg" alt="Player 2">
-<img class="player3" src="images/man.svg" alt="Player 3">
-<!-- <section>
- <img src="images/sim3.svg" alt="Table">
-</section> -->
-<!-- <img class="player4" src="images/woman.svg" alt="Player 4">
-<img class="player5" src="images/man.svg" alt="Player 5">
-<img class="player6" src="images/woman.svg" alt="Player 6"> --> -->
 
-
+<div>
+    <img class="table2" src="images/table2.svg" alt="table2">
+</div>
 
 
 
@@ -147,32 +143,62 @@
 
 <script type="text/javascript" src="js/Poker1.json"></script>
 
-<!-- <script type="text/javascript" >
-    function load() {
-        var ids = JSON.parse(data);
-
-        var div = document.getElementById('data');
-
-        for(var i = 0;i < mydata.length; i++)
-        {
-            div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ ids[i].Player_ID +"</p>" + "<br>";
-        }
-    }
-</script> -->
-
-
 
 <div class="playerIDs">
 
    
-    <div class="playerID1">
-        player1
+    <div class="playerID1 active_pla">
+        <div id="name1">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pok_train);
+                var output1 = document.getElementById('name1');
+                output1.innerHTML = userdata[2].name;
+            </script>
+            <br>
+        </div>
+        <div id="cluster1">
+            <script type="text/javascript">
+
+                var userdata = JSON.parse(pok_train);
+                var output1 = document.getElementById('cluster1');
+                output1.innerHTML = 'Cluster: '+userdata[2].cluster;
+
+
+            document.getElementById("runbtn").addEventListener("click", change);
+
+            function change() {
+                var userdata = JSON.parse(pok_test);
+                var output1 = document.getElementById('cluster1');
+                output1.innerHTML = 'Cluster: '+userdata[2].cluster;
+            }
+
+            </script>
+            <br>
+        </div>
+
+        <div id="rating2">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pok_train);
+                var output1 = document.getElementById('rating2');
+                output1.innerHTML = 'Rating: '+userdata[2].rating;
+
+                document.getElementById("runbtn").addEventListener("click", change);
+
+                function change() {
+                    var userdata = JSON.parse(pok_test);
+                    var output1 = document.getElementById('rating2');
+                    output1.innerHTML = 'Rating: '+userdata[2].rating;
+                }
+            </script>
+            <br>
+        </div>
+
     </div>
-    <div class="playerID2">
+    <!-- <div class="playerID2">
         player2
     </div>
 
-    <div class="playerID3 active_pla">
+    <div class="playerID3">
         player3
     </div>
 
@@ -186,62 +212,10 @@
 
     <div class="playerID6">
         player6
-    </div>
-
-    <div class="playerID7">
-        player7
-    </div>
-
-    <div class="playerID8">
-        player8
-    </div>
-
-    <div class="playerID9">
-        player9
-    </div>
+    </div> -->
 
 </div>
-
-
-
-<div class="grid-container">
-
-    <div class="grid-item">
-        <img class="player1" src="images/man.svg" alt="Player 1">
-    </div>
-
-    <div class="grid-item">
-        <img class="player2" src="images/woman.svg" alt="Player 2">
-    </div>
-
-    <div class="grid-item">
-        <img class="player3" src="images/man.svg" alt="Player 3">
-    </div>
-
-    <div class="grid-item">
-        <img class="player4" src="images/woman.svg" alt="Player 4">
-    </div>
-
-    <div class="grid-item">
-        <img class="player5" src="images/man.svg" alt="Player 5">
-    </div>
-
-    <div class="grid-item">
-        <img class="player6" src="images/woman.svg" alt="Player 6">
-    </div>
-
-    <div class="grid-item">
-        <img class="player7" src="images/man.svg" alt="Player 7">
-    </div>
-    <div class="grid-item">
-        <img class="player8" src="images/woman.svg" alt="Player 8">
-    </div>
-    <div class="grid-item">
-        <img class="player9" src="images/man.svg" alt="Player 9">
-    </div>
-
-  </div>
-
+  
 
 
 
