@@ -252,8 +252,8 @@ section{
   position: relative;
   top: -70vh;
   left: 10vh;
-  grid-template-columns: 200px 200px 200px;
-  grid-gap: 400px 100px;
+  grid-template-columns: 170px 200px 200px;
+  grid-gap: 420px 170px;
   grid-template-rows: 80px 80px 100px;
 }
 .active_pla{
@@ -263,6 +263,7 @@ section{
   color:  #ffffff;
   width: -moz-fit-content;
   height: -moz-fit-content;
+  padding-left: 2%;
 }
 
 

@@ -47,3 +47,54 @@ function redirect5() {
     window.location.href="lobbysim5.html"   
     }
 }
+
+
+function redirectb1() {
+
+    if (counter == 0) {
+    window.location.href="blobby1.html";
+    }
+    else if (counter > 0) {
+    window.location.href="blobbysim1.html"   
+    }
+}
+
+function redirectb2() {
+
+    if (counter == 0) {
+    window.location.href="blobby2.html";
+    }
+    else if (counter > 0) {
+    window.location.href="blobbysim2.html"   
+    }
+}
+
+function redirectb3() {
+
+    if (counter == 0) {
+    window.location.href="blobby3.html";
+    }
+    else if (counter > 0) {
+    window.location.href="blobbysim3.html"   
+    }
+}
+
+function redirectb4() {
+
+    if (counter == 0) {
+    window.location.href="blobby4.html";
+    }
+    else if (counter > 0) {
+    window.location.href="blobbysim4.html"   
+    }
+}
+
+function redirectb5() {
+
+    if (counter == 0) {
+    window.location.href="blobby5.html";
+    }
+    else if (counter > 0) {
+    window.location.href="blobbysim5.html"   
+    }
+}
