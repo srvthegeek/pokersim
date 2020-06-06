@@ -55,7 +55,7 @@ nav a{
 nav .dropdown .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 16px;
+    padding: 12px;
     font-size: 16px;
     border: none;
     border-radius: 4px;
@@ -65,7 +65,7 @@ nav .dropdown .dropbtn {
   nav .joinlobby {
     background-color: rgb(247, 29, 29);
     color: white;
-    padding: 16px;
+    padding: 12px;
     font-size: 16px;
     border: none;
     border-radius: 4px;
@@ -75,7 +75,7 @@ nav .dropdown .dropbtn {
 nav .runbtn {
     background-color: rgb(247, 29, 29);
     color: white;
-    padding: 16px;
+    padding: 12px;
     font-size: 16px;
     border: none;
     border-radius: 4px;
@@ -259,7 +259,7 @@ section{
 .active_pla{
   border: solid 2px #ffffff;
   border-radius: 2px;
-  background-color: rgb(242, 14, 52);
+  background-color: rgb(0, 0, 0);
   color:  #ffffff;
   width: -moz-fit-content;
   height: -moz-fit-content;
