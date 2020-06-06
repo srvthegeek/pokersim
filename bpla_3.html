@@ -8,7 +8,7 @@
 <body>
 <header>
     <img src="images/Logo.svg" alt="Logo">
-    <h1>Virtual Poker</h1>
+    <h1>Virtual Blackjack</h1>
     <p id="team" style="font-size: 3vh;" style="font-weight: bolder;">Team Biobots</p>
 </header>
 
@@ -23,30 +23,31 @@
     <div class="dropdown">
         <button class="dropbtn">Choose Player</button>
         <div class="dropdown-content">
-            <a href="pla_1.html">Rosabelle</a>
-            <a href="pla_2.html">Catherine</a>
-            <a href="pla_3.html">Harlan</a>
-            <a href="pla_4.html">Kevin</a>
-            <a href="pla_5.html">Wendy</a>
+            <a href="bpla_1.html">Laurene</a>
+            <a href="bpla_2.html">Alan</a>
+            <a href="bpla_3.html">Deni</a>
+            <a href="bpla_4.html">Clair</a>
+            <a href="bpla_5.html">Levi</a>
         </div>
       </div>
-    <button class="joinlobby" onclick="setTimeout(redirect3, 1200)">Join Lobby</button>
+    <button class="joinlobby" onclick="setTimeout(redirectb3, 1200)">Join Lobby</button>
     <button class="runbtn" id="runbtn" onclick="setTimeout(showresult, 800)">Run Simulation</button>
 </nav>
 
 <script type="text/javascript" src="showresult.js"></script>
 <script type="text/javascript" src="redirect.js"></script>
-<script type="text/javascript" src="pok_train.js"></script>
-<script type="text/javascript" src="pok_test.js"></script>
+<script type="text/javascript" src="blkjk_train.js"></script>
+<script type="text/javascript" src="blkjk_test.js"></script>
 
 <aside class="dialogue1">
     <div class="matchresults">
         <h2>Lifetime Stats</h2>
-        <!-- pok_train Cluster:  -->
+        <!-- blkjk_train Cluster:  -->
         <div id="matches_played">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_train);
+                var userdata = JSON.parse(blkjk_train);
                 var output1 = document.getElementById('matches_played');
+                console.log(output1)
                 output1.innerHTML = 'Matches Played: '+userdata[2].matches_played;
             </script>
             <br>
@@ -54,7 +55,7 @@
 
         <div id="winpercent">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_train);
+                var userdata = JSON.parse(blkjk_train);
                 var output1 = document.getElementById('winpercent');
                 output1.innerHTML = 'Win Percentage: '+userdata[2].win_percent;
             </script>
@@ -63,7 +64,7 @@
 
         <div id="cluster">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_train);
+                var userdata = JSON.parse(blkjk_train);
                 var output1 = document.getElementById('cluster');
                 output1.innerHTML = 'Current Cluster: '+userdata[2].cluster;
             </script>
@@ -72,13 +73,13 @@
 
         <div id="rating">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_train);
+                var userdata = JSON.parse(blkjk_train);
                 var output1 = document.getElementById('rating');
                 output1.innerHTML = 'Rating: '+userdata[2].rating;
             </script>
             <br>
         </div>
-        <!-- <div id="show1" style="display: none;">pok_test Cluster: </div> -->
+        <!-- <div id="show1" style="display: none;">blkjk_test Cluster: </div> -->
     </div>
 </aside>
 <aside class="dialogue2">
@@ -89,7 +90,7 @@
 
         <div id="matchesplayed">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_test);
+                var userdata = JSON.parse(blkjk_test);
                 var output1 = document.getElementById('matchesplayed');
                 output1.innerHTML = 'Matches played through simulation: '+userdata[2].matches_played;
             </script>
@@ -98,7 +99,7 @@
 
         <div id="winpercentfinal">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_test);
+                var userdata = JSON.parse(blkjk_test);
                 var output1 = document.getElementById('winpercentfinal');
                 output1.innerHTML = 'Win Percentage: '+userdata[2].win_percent;
             </script>
@@ -107,7 +108,7 @@
 
         <div id="clusterfinal">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_test);
+                var userdata = JSON.parse(blkjk_test);
                 var output1 = document.getElementById('clusterfinal');
                 output1.innerHTML = 'final Cluster: '+userdata[2].cluster;
             </script>
@@ -116,7 +117,7 @@
 
         <div id="rating1">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_test);
+                var userdata = JSON.parse(blkjk_test);
                 var output1 = document.getElementById('rating1');
                 output1.innerHTML = 'Rating: '+userdata[2].rating;
             </script>
@@ -130,7 +131,7 @@
 
 
 <div>
-    <img class="table2" src="images/table2.svg" alt="table2">
+    <img class="table2" src="images/table3.svg" alt="table2">
 </div>
 
 
@@ -150,7 +151,7 @@
     <div class="playerID1 active_pla">
         <div id="name1">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_train);
+                var userdata = JSON.parse(blkjk_train);
                 var output1 = document.getElementById('name1');
                 output1.innerHTML = userdata[2].name;
             </script>
@@ -159,7 +160,7 @@
         <div id="cluster1">
             <script type="text/javascript">
 
-                var userdata = JSON.parse(pok_train);
+                var userdata = JSON.parse(blkjk_train);
                 var output1 = document.getElementById('cluster1');
                 output1.innerHTML = 'Cluster: '+userdata[2].cluster;
 
@@ -167,7 +168,7 @@
             document.getElementById("runbtn").addEventListener("click", change);
 
             function change() {
-                var userdata = JSON.parse(pok_test);
+                var userdata = JSON.parse(blkjk_test);
                 var output1 = document.getElementById('cluster1');
                 output1.innerHTML = 'Cluster: '+userdata[2].cluster;
             }
@@ -178,14 +179,14 @@
 
         <div id="rating2">
             <script type="text/javascript">
-                var userdata = JSON.parse(pok_train);
+                var userdata = JSON.parse(blkjk_train);
                 var output1 = document.getElementById('rating2');
                 output1.innerHTML = 'Rating: '+userdata[2].rating;
 
                 document.getElementById("runbtn").addEventListener("click", change);
 
                 function change() {
-                    var userdata = JSON.parse(pok_test);
+                    var userdata = JSON.parse(blkjk_test);
                     var output1 = document.getElementById('rating2');
                     output1.innerHTML = 'Rating: '+userdata[2].rating;
                 }

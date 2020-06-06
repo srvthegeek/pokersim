@@ -252,8 +252,8 @@ section{
   position: relative;
   top: -70vh;
   left: 10vh;
-  grid-template-columns: 170px 200px 200px;
-  grid-gap: 420px 170px;
+  grid-template-columns: 170px 170px 170px;
+  grid-gap: 420px 150px;
   grid-template-rows: 80px 80px 100px;
 }
 .active_pla{
@@ -264,6 +264,31 @@ section{
   width: -moz-fit-content;
   height: -moz-fit-content;
   padding-left: 2%;
+}
+
+.playerID2  {
+  background-color: rgb(12, 60, 131);
+  padding: 2%;
+}
+
+.playerID3  {
+  background-color: rgb(12, 60, 131);
+  padding: 2%;
+}
+
+.playerID4  {
+  background-color: rgb(12, 60, 131);
+  padding: 2%;
+}
+
+.playerID5  {
+  background-color: rgb(12, 60, 131);
+  padding: 2%;
+}
+
+.playerID6  {
+  background-color: rgb(12, 60, 131);
+  padding: 2%;
 }
 
 
