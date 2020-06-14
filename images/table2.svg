@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1035.822" height="550.3" viewBox="0 0 1035.822 550.3">
   <defs>
     <style>
+
+        @font-face {
+        font-family: Oswald;
+        src:url(Oswald-Medium.ttf)
+        }
+        
       .cls-1, .cls-6 {
         stroke: #f9f900;
       }
