@@ -364,6 +364,7 @@
         fill: #265f1d;
         font-size: 114px;
         font-family: Oswald;
+        src:url(Oswald-Medium.ttf)
       }
     </style>
     <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.029" gradientTransform="translate(0.26 0.219) scale(0.481 0.563)" gradientUnits="objectBoundingBox">
