@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: Oswald;
-  src:url(oswald-v31-latin-regular.ttf)
+  src:url(fonts/oswald-v31-latin-regular.ttf)
 }
 
 /* @font-face {
@@ -15,8 +15,8 @@
 } */
 
 body{
-    font-family:Oswald ;
-    src:url(fonts/Oswald-Medium.ttf);
+    font-family:Oswald;
+    src:url('oswald-v31-latin-regular-webfont.woff2');
     background-image: url(../images/background.jpg);
     background-color: #580000cc;
     background-repeat: repeat;
