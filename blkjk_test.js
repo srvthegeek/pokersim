@@ -4,7 +4,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "212",
         "name": "Laurene",
-        "rating": "3.09",
+        "rating": "1.54",
         "win_percent": "0.44"
     },
     {
@@ -12,7 +12,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "190",
         "name": "Alan",
-        "rating": "8.97",
+        "rating": "4.49",
         "win_percent": "0.47"
     },
     {
@@ -20,7 +20,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "201",
         "name": "Deni",
-        "rating": "0.27",
+        "rating": "0.14",
         "win_percent": "0.42"
     },
     {
@@ -28,7 +28,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "192",
         "name": "Clair",
-        "rating": "0.25",
+        "rating": "0.13",
         "win_percent": "0.42"
     },
     {
@@ -36,7 +36,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "191",
         "name": "Levi",
-        "rating": "3.12",
+        "rating": "1.56",
         "win_percent": "0.44"
     },
     {
@@ -44,7 +44,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "203",
         "name": "Donielle",
-        "rating": "5.83",
+        "rating": "2.92",
         "win_percent": "0.42"
     },
     {
@@ -52,7 +52,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "183",
         "name": "Fina",
-        "rating": "6.19",
+        "rating": "3.1",
         "win_percent": "0.44"
     },
     {
@@ -60,7 +60,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "181",
         "name": "Krysta",
-        "rating": "5.99",
+        "rating": "3.0",
         "win_percent": "0.44"
     },
     {
@@ -68,7 +68,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "194",
         "name": "Kendell",
-        "rating": "0.09",
+        "rating": "0.04",
         "win_percent": "0.38"
     },
     {
@@ -76,7 +76,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "191",
         "name": "Karen",
-        "rating": "5.74",
+        "rating": "2.87",
         "win_percent": "0.41"
     },
     {
@@ -84,7 +84,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "236",
         "name": "Jammie",
-        "rating": "8.89",
+        "rating": "4.45",
         "win_percent": "0.46"
     },
     {
@@ -92,7 +92,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "189",
         "name": "Audrie",
-        "rating": "9.29",
+        "rating": "4.64",
         "win_percent": "0.47"
     },
     {
@@ -100,7 +100,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "206",
         "name": "Aleece",
-        "rating": "5.96",
+        "rating": "2.98",
         "win_percent": "0.42"
     },
     {
@@ -108,7 +108,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "202",
         "name": "Shela",
-        "rating": "5.77",
+        "rating": "2.88",
         "win_percent": "0.39"
     },
     {
@@ -116,7 +116,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "212",
         "name": "Dulcine",
-        "rating": "0.25",
+        "rating": "0.13",
         "win_percent": "0.41"
     },
     {
@@ -124,7 +124,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "220",
         "name": "Brandice",
-        "rating": "5.89",
+        "rating": "2.94",
         "win_percent": "0.43"
     },
     {
@@ -132,7 +132,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "171",
         "name": "Nicola",
-        "rating": "3.02",
+        "rating": "1.51",
         "win_percent": "0.44"
     },
     {
@@ -140,7 +140,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "182",
         "name": "Griffy",
-        "rating": "8.93",
+        "rating": "4.46",
         "win_percent": "0.46"
     },
     {
@@ -148,7 +148,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "237",
         "name": "Lauryn",
-        "rating": "5.97",
+        "rating": "2.98",
         "win_percent": "0.41"
     },
     {
@@ -156,7 +156,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "186",
         "name": "Lane",
-        "rating": "3.01",
+        "rating": "1.5",
         "win_percent": "0.46"
     },
     {
@@ -164,7 +164,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "214",
         "name": "Ivette",
-        "rating": "0.25",
+        "rating": "0.13",
         "win_percent": "0.36"
     },
     {
@@ -172,7 +172,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "187",
         "name": "Denyse",
-        "rating": "9.06",
+        "rating": "4.53",
         "win_percent": "0.48"
     },
     {
@@ -180,7 +180,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "208",
         "name": "Lars",
-        "rating": "2.91",
+        "rating": "1.46",
         "win_percent": "0.43"
     },
     {
@@ -188,7 +188,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "207",
         "name": "Elora",
-        "rating": "3.18",
+        "rating": "1.59",
         "win_percent": "0.46"
     },
     {
@@ -196,7 +196,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "190",
         "name": "Eleni",
-        "rating": "3.04",
+        "rating": "1.52",
         "win_percent": "0.46"
     },
     {
@@ -204,7 +204,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "203",
         "name": "Orton",
-        "rating": "3.07",
+        "rating": "1.53",
         "win_percent": "0.46"
     },
     {
@@ -212,7 +212,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "178",
         "name": "Barbabra",
-        "rating": "0.16",
+        "rating": "0.08",
         "win_percent": "0.37"
     },
     {
@@ -220,7 +220,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "199",
         "name": "Evelin",
-        "rating": "2.83",
+        "rating": "1.42",
         "win_percent": "0.42"
     },
     {
@@ -228,7 +228,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "189",
         "name": "Maye",
-        "rating": "3.0",
+        "rating": "1.5",
         "win_percent": "0.45"
     },
     {
@@ -236,7 +236,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "206",
         "name": "Morna",
-        "rating": "0.29",
+        "rating": "0.14",
         "win_percent": "0.39"
     },
     {
@@ -244,7 +244,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "188",
         "name": "Debi",
-        "rating": "3.0",
+        "rating": "1.5",
         "win_percent": "0.47"
     },
     {
@@ -252,7 +252,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "189",
         "name": "Karia",
-        "rating": "0.14",
+        "rating": "0.07",
         "win_percent": "0.39"
     },
     {
@@ -260,7 +260,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "192",
         "name": "Allyn",
-        "rating": "6.16",
+        "rating": "3.08",
         "win_percent": "0.44"
     },
     {
@@ -268,7 +268,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "202",
         "name": "Emmye",
-        "rating": "9.69",
+        "rating": "4.84",
         "win_percent": "0.5"
     },
     {
@@ -276,7 +276,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "202",
         "name": "Boote",
-        "rating": "5.99",
+        "rating": "3.0",
         "win_percent": "0.41"
     },
     {
@@ -284,7 +284,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "229",
         "name": "Deloria",
-        "rating": "6.45",
+        "rating": "3.23",
         "win_percent": "0.45"
     },
     {
@@ -292,7 +292,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "208",
         "name": "Dido",
-        "rating": "0.25",
+        "rating": "0.13",
         "win_percent": "0.39"
     },
     {
@@ -300,7 +300,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "202",
         "name": "Boy",
-        "rating": "0.11",
+        "rating": "0.06",
         "win_percent": "0.36"
     },
     {
@@ -308,7 +308,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "191",
         "name": "Donavon",
-        "rating": "0.34",
+        "rating": "0.17",
         "win_percent": "0.43"
     },
     {
@@ -316,7 +316,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "196",
         "name": "Ansell",
-        "rating": "0.25",
+        "rating": "0.13",
         "win_percent": "0.37"
     },
     {
@@ -332,7 +332,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "197",
         "name": "Gussi",
-        "rating": "6.06",
+        "rating": "3.03",
         "win_percent": "0.41"
     },
     {
@@ -340,7 +340,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "192",
         "name": "Claudelle",
-        "rating": "5.77",
+        "rating": "2.88",
         "win_percent": "0.41"
     },
     {
@@ -348,7 +348,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "219",
         "name": "Lyndy",
-        "rating": "2.86",
+        "rating": "1.43",
         "win_percent": "0.43"
     },
     {
@@ -356,7 +356,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "196",
         "name": "Bernardine",
-        "rating": "5.99",
+        "rating": "3.0",
         "win_percent": "0.43"
     },
     {
@@ -364,7 +364,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "186",
         "name": "Michele",
-        "rating": "0.3",
+        "rating": "0.15",
         "win_percent": "0.4"
     },
     {
@@ -372,7 +372,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "210",
         "name": "Marjy",
-        "rating": "6.16",
+        "rating": "3.08",
         "win_percent": "0.44"
     },
     {
@@ -380,7 +380,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "203",
         "name": "Burr",
-        "rating": "5.77",
+        "rating": "2.88",
         "win_percent": "0.41"
     },
     {
@@ -388,7 +388,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "207",
         "name": "Neron",
-        "rating": "0.28",
+        "rating": "0.14",
         "win_percent": "0.4"
     },
     {
@@ -396,7 +396,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "202",
         "name": "Palm",
-        "rating": "0.2",
+        "rating": "0.1",
         "win_percent": "0.41"
     },
     {
@@ -404,7 +404,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "189",
         "name": "Jarid",
-        "rating": "9.94",
+        "rating": "4.97",
         "win_percent": "0.53"
     },
     {
@@ -412,7 +412,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "217",
         "name": "Alford",
-        "rating": "5.77",
+        "rating": "2.88",
         "win_percent": "0.41"
     },
     {
@@ -420,7 +420,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "250",
         "name": "Lind",
-        "rating": "0.14",
+        "rating": "0.07",
         "win_percent": "0.37"
     },
     {
@@ -428,7 +428,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "185",
         "name": "Elle",
-        "rating": "2.99",
+        "rating": "1.5",
         "win_percent": "0.44"
     },
     {
@@ -436,7 +436,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "191",
         "name": "Chance",
-        "rating": "0.1",
+        "rating": "0.05",
         "win_percent": "0.37"
     },
     {
@@ -444,7 +444,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "175",
         "name": "Minna",
-        "rating": "0.27",
+        "rating": "0.14",
         "win_percent": "0.4"
     },
     {
@@ -452,7 +452,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "192",
         "name": "Alexandrina",
-        "rating": "9.07",
+        "rating": "4.54",
         "win_percent": "0.47"
     },
     {
@@ -460,7 +460,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "195",
         "name": "Francesca",
-        "rating": "5.8",
+        "rating": "2.9",
         "win_percent": "0.43"
     },
     {
@@ -468,7 +468,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "228",
         "name": "Ivie",
-        "rating": "2.88",
+        "rating": "1.44",
         "win_percent": "0.43"
     },
     {
@@ -476,7 +476,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "227",
         "name": "Ahmed",
-        "rating": "0.26",
+        "rating": "0.13",
         "win_percent": "0.42"
     },
     {
@@ -484,7 +484,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "194",
         "name": "Corinne",
-        "rating": "5.91",
+        "rating": "2.96",
         "win_percent": "0.43"
     },
     {
@@ -492,7 +492,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "178",
         "name": "Ronna",
-        "rating": "0.09",
+        "rating": "0.04",
         "win_percent": "0.37"
     },
     {
@@ -500,7 +500,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "216",
         "name": "Willa",
-        "rating": "9.32",
+        "rating": "4.66",
         "win_percent": "0.47"
     },
     {
@@ -508,7 +508,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "187",
         "name": "Valli",
-        "rating": "0.28",
+        "rating": "0.14",
         "win_percent": "0.36"
     },
     {
@@ -516,7 +516,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "203",
         "name": "Josi",
-        "rating": "9.14",
+        "rating": "4.57",
         "win_percent": "0.49"
     },
     {
@@ -524,7 +524,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "217",
         "name": "Lisabeth",
-        "rating": "9.24",
+        "rating": "4.62",
         "win_percent": "0.46"
     },
     {
@@ -532,7 +532,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "195",
         "name": "Sutton",
-        "rating": "0.14",
+        "rating": "0.07",
         "win_percent": "0.37"
     },
     {
@@ -540,7 +540,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "205",
         "name": "Scotty",
-        "rating": "5.95",
+        "rating": "2.98",
         "win_percent": "0.43"
     },
     {
@@ -556,7 +556,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "228",
         "name": "Shelton",
-        "rating": "0.16",
+        "rating": "0.08",
         "win_percent": "0.39"
     },
     {
@@ -564,7 +564,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "193",
         "name": "Syd",
-        "rating": "0.13",
+        "rating": "0.07",
         "win_percent": "0.35"
     },
     {
@@ -572,7 +572,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "185",
         "name": "Filia",
-        "rating": "0.07",
+        "rating": "0.04",
         "win_percent": "0.39"
     },
     {
@@ -580,7 +580,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "181",
         "name": "Gabi",
-        "rating": "0.23",
+        "rating": "0.12",
         "win_percent": "0.38"
     },
     {
@@ -588,7 +588,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "209",
         "name": "Pauline",
-        "rating": "0.17",
+        "rating": "0.09",
         "win_percent": "0.41"
     },
     {
@@ -596,7 +596,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "191",
         "name": "Kahaleel",
-        "rating": "0.29",
+        "rating": "0.14",
         "win_percent": "0.42"
     },
     {
@@ -604,7 +604,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "189",
         "name": "Sher",
-        "rating": "10.0",
+        "rating": "5.0",
         "win_percent": "0.53"
     },
     {
@@ -612,7 +612,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "200",
         "name": "Antony",
-        "rating": "9.16",
+        "rating": "4.58",
         "win_percent": "0.46"
     },
     {
@@ -620,7 +620,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "201",
         "name": "Salvidor",
-        "rating": "9.59",
+        "rating": "4.79",
         "win_percent": "0.52"
     },
     {
@@ -628,7 +628,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "211",
         "name": "Dulcinea",
-        "rating": "6.5",
+        "rating": "3.25",
         "win_percent": "0.44"
     },
     {
@@ -636,7 +636,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "186",
         "name": "Kathi",
-        "rating": "5.99",
+        "rating": "3.0",
         "win_percent": "0.42"
     },
     {
@@ -644,7 +644,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "182",
         "name": "Laina",
-        "rating": "5.67",
+        "rating": "2.83",
         "win_percent": "0.4"
     },
     {
@@ -652,7 +652,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "225",
         "name": "Emilee",
-        "rating": "0.28",
+        "rating": "0.14",
         "win_percent": "0.41"
     },
     {
@@ -660,7 +660,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "193",
         "name": "Gunar",
-        "rating": "6.44",
+        "rating": "3.22",
         "win_percent": "0.42"
     },
     {
@@ -668,7 +668,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "195",
         "name": "Anett",
-        "rating": "0.17",
+        "rating": "0.09",
         "win_percent": "0.38"
     },
     {
@@ -676,7 +676,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "195",
         "name": "Nonna",
-        "rating": "0.33",
+        "rating": "0.17",
         "win_percent": "0.41"
     },
     {
@@ -684,7 +684,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "196",
         "name": "Kimble",
-        "rating": "8.88",
+        "rating": "4.44",
         "win_percent": "0.45"
     },
     {
@@ -692,7 +692,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "202",
         "name": "Dalt",
-        "rating": "5.91",
+        "rating": "2.96",
         "win_percent": "0.41"
     },
     {
@@ -700,7 +700,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "206",
         "name": "Annmarie",
-        "rating": "3.09",
+        "rating": "1.54",
         "win_percent": "0.47"
     },
     {
@@ -708,7 +708,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "212",
         "name": "Abigael",
-        "rating": "9.9",
+        "rating": "4.95",
         "win_percent": "0.54"
     },
     {
@@ -716,7 +716,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "201",
         "name": "Pail",
-        "rating": "8.9",
+        "rating": "4.45",
         "win_percent": "0.45"
     },
     {
@@ -724,7 +724,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "194",
         "name": "Bent",
-        "rating": "2.67",
+        "rating": "1.33",
         "win_percent": "0.42"
     },
     {
@@ -732,7 +732,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "186",
         "name": "Rubina",
-        "rating": "3.08",
+        "rating": "1.54",
         "win_percent": "0.45"
     },
     {
@@ -740,7 +740,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "175",
         "name": "Hort",
-        "rating": "3.24",
+        "rating": "1.62",
         "win_percent": "0.49"
     },
     {
@@ -748,7 +748,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "183",
         "name": "Sanford",
-        "rating": "2.91",
+        "rating": "1.46",
         "win_percent": "0.44"
     },
     {
@@ -756,7 +756,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "218",
         "name": "Jacquelyn",
-        "rating": "0.25",
+        "rating": "0.13",
         "win_percent": "0.41"
     },
     {
@@ -764,7 +764,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "200",
         "name": "Sandro",
-        "rating": "6.34",
+        "rating": "3.17",
         "win_percent": "0.45"
     },
     {
@@ -772,7 +772,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "182",
         "name": "Riccardo",
-        "rating": "6.77",
+        "rating": "3.38",
         "win_percent": "0.45"
     },
     {
@@ -780,7 +780,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "220",
         "name": "Carina",
-        "rating": "2.87",
+        "rating": "1.44",
         "win_percent": "0.42"
     },
     {
@@ -788,7 +788,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "207",
         "name": "Fernanda",
-        "rating": "9.61",
+        "rating": "4.8",
         "win_percent": "0.48"
     },
     {
@@ -796,7 +796,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "190",
         "name": "Susanetta",
-        "rating": "8.89",
+        "rating": "4.45",
         "win_percent": "0.45"
     },
     {
@@ -804,7 +804,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "205",
         "name": "Eddy",
-        "rating": "6.15",
+        "rating": "3.08",
         "win_percent": "0.42"
     },
     {
@@ -812,7 +812,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "192",
         "name": "Ephrayim",
-        "rating": "0.03",
+        "rating": "0.02",
         "win_percent": "0.34"
     },
     {
@@ -820,7 +820,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "203",
         "name": "Jaime",
-        "rating": "0.13",
+        "rating": "0.07",
         "win_percent": "0.38"
     },
     {
@@ -828,7 +828,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "209",
         "name": "Kristan",
-        "rating": "0.18",
+        "rating": "0.09",
         "win_percent": "0.36"
     },
     {
@@ -836,7 +836,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "198",
         "name": "Maureene",
-        "rating": "0.33",
+        "rating": "0.17",
         "win_percent": "0.41"
     },
     {
@@ -844,7 +844,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "192",
         "name": "Lonna",
-        "rating": "0.24",
+        "rating": "0.12",
         "win_percent": "0.41"
     },
     {
@@ -852,7 +852,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "218",
         "name": "Augie",
-        "rating": "6.05",
+        "rating": "3.02",
         "win_percent": "0.44"
     },
     {
@@ -860,7 +860,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "193",
         "name": "Barbabra",
-        "rating": "2.99",
+        "rating": "1.5",
         "win_percent": "0.44"
     },
     {
@@ -868,7 +868,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "221",
         "name": "Idalia",
-        "rating": "9.02",
+        "rating": "4.51",
         "win_percent": "0.46"
     },
     {
@@ -876,7 +876,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "217",
         "name": "Dyanna",
-        "rating": "3.15",
+        "rating": "1.57",
         "win_percent": "0.46"
     },
     {
@@ -884,7 +884,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "180",
         "name": "Knox",
-        "rating": "6.02",
+        "rating": "3.01",
         "win_percent": "0.43"
     },
     {
@@ -892,7 +892,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "203",
         "name": "Heinrik",
-        "rating": "8.9",
+        "rating": "4.45",
         "win_percent": "0.45"
     },
     {
@@ -900,7 +900,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "199",
         "name": "Gene",
-        "rating": "6.21",
+        "rating": "3.1",
         "win_percent": "0.41"
     },
     {
@@ -908,7 +908,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "198",
         "name": "Kiah",
-        "rating": "9.37",
+        "rating": "4.68",
         "win_percent": "0.48"
     },
     {
@@ -916,7 +916,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "194",
         "name": "Stearne",
-        "rating": "5.84",
+        "rating": "2.92",
         "win_percent": "0.43"
     },
     {
@@ -924,7 +924,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "195",
         "name": "Ricca",
-        "rating": "2.83",
+        "rating": "1.42",
         "win_percent": "0.43"
     },
     {
@@ -932,7 +932,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "173",
         "name": "Karia",
-        "rating": "5.79",
+        "rating": "2.9",
         "win_percent": "0.41"
     },
     {
@@ -940,7 +940,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "216",
         "name": "Florence",
-        "rating": "0.18",
+        "rating": "0.09",
         "win_percent": "0.39"
     },
     {
@@ -948,7 +948,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "190",
         "name": "Elton",
-        "rating": "0.12",
+        "rating": "0.06",
         "win_percent": "0.41"
     },
     {
@@ -956,7 +956,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "202",
         "name": "Yoko",
-        "rating": "6.14",
+        "rating": "3.07",
         "win_percent": "0.44"
     },
     {
@@ -964,7 +964,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "195",
         "name": "Golda",
-        "rating": "2.89",
+        "rating": "1.45",
         "win_percent": "0.46"
     },
     {
@@ -972,7 +972,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "210",
         "name": "Carson",
-        "rating": "0.13",
+        "rating": "0.07",
         "win_percent": "0.35"
     },
     {
@@ -980,7 +980,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "205",
         "name": "Hammad",
-        "rating": "6.1",
+        "rating": "3.05",
         "win_percent": "0.44"
     },
     {
@@ -988,7 +988,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "202",
         "name": "Candide",
-        "rating": "8.99",
+        "rating": "4.5",
         "win_percent": "0.47"
     },
     {
@@ -996,7 +996,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "219",
         "name": "Ardenia",
-        "rating": "3.08",
+        "rating": "1.54",
         "win_percent": "0.44"
     },
     {
@@ -1004,7 +1004,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "188",
         "name": "Rikki",
-        "rating": "9.01",
+        "rating": "4.5",
         "win_percent": "0.46"
     },
     {
@@ -1012,7 +1012,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "201",
         "name": "Marcile",
-        "rating": "0.32",
+        "rating": "0.16",
         "win_percent": "0.4"
     },
     {
@@ -1020,7 +1020,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "227",
         "name": "Ralina",
-        "rating": "0.12",
+        "rating": "0.06",
         "win_percent": "0.36"
     },
     {
@@ -1028,7 +1028,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "190",
         "name": "Wallis",
-        "rating": "2.88",
+        "rating": "1.44",
         "win_percent": "0.43"
     },
     {
@@ -1036,7 +1036,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "219",
         "name": "Christoffer",
-        "rating": "0.26",
+        "rating": "0.13",
         "win_percent": "0.41"
     },
     {
@@ -1044,7 +1044,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "217",
         "name": "Burnaby",
-        "rating": "0.2",
+        "rating": "0.1",
         "win_percent": "0.41"
     },
     {
@@ -1052,7 +1052,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "194",
         "name": "Osborne",
-        "rating": "6.12",
+        "rating": "3.06",
         "win_percent": "0.41"
     },
     {
@@ -1060,7 +1060,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "201",
         "name": "Edith",
-        "rating": "9.35",
+        "rating": "4.67",
         "win_percent": "0.48"
     },
     {
@@ -1068,7 +1068,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "185",
         "name": "Berrie",
-        "rating": "2.97",
+        "rating": "1.49",
         "win_percent": "0.44"
     },
     {
@@ -1076,7 +1076,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "179",
         "name": "Arlene",
-        "rating": "0.25",
+        "rating": "0.13",
         "win_percent": "0.39"
     },
     {
@@ -1084,7 +1084,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "194",
         "name": "Anne",
-        "rating": "0.29",
+        "rating": "0.14",
         "win_percent": "0.4"
     },
     {
@@ -1092,7 +1092,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "194",
         "name": "Valdemar",
-        "rating": "2.77",
+        "rating": "1.39",
         "win_percent": "0.42"
     },
     {
@@ -1100,7 +1100,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "190",
         "name": "Wallace",
-        "rating": "6.1",
+        "rating": "3.05",
         "win_percent": "0.44"
     },
     {
@@ -1108,7 +1108,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "192",
         "name": "Trixy",
-        "rating": "0.23",
+        "rating": "0.12",
         "win_percent": "0.38"
     },
     {
@@ -1116,7 +1116,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "210",
         "name": "Kimmy",
-        "rating": "9.15",
+        "rating": "4.58",
         "win_percent": "0.47"
     },
     {
@@ -1124,7 +1124,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "202",
         "name": "Fidelity",
-        "rating": "0.28",
+        "rating": "0.14",
         "win_percent": "0.42"
     },
     {
@@ -1132,7 +1132,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "211",
         "name": "Valina",
-        "rating": "2.72",
+        "rating": "1.36",
         "win_percent": "0.42"
     },
     {
@@ -1140,7 +1140,7 @@ window.blkjk_tests = [
         "cluster": "3",
         "matches_played": "203",
         "name": "Edy",
-        "rating": "8.83",
+        "rating": "4.42",
         "win_percent": "0.46"
     },
     {
@@ -1148,7 +1148,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "202",
         "name": "Shana",
-        "rating": "0.18",
+        "rating": "0.09",
         "win_percent": "0.39"
     },
     {
@@ -1156,7 +1156,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "188",
         "name": "Alyson",
-        "rating": "6.18",
+        "rating": "3.09",
         "win_percent": "0.44"
     },
     {
@@ -1164,7 +1164,7 @@ window.blkjk_tests = [
         "cluster": "1",
         "matches_played": "221",
         "name": "Lise",
-        "rating": "2.9",
+        "rating": "1.45",
         "win_percent": "0.43"
     },
     {
@@ -1172,7 +1172,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "205",
         "name": "Brigid",
-        "rating": "0.1",
+        "rating": "0.05",
         "win_percent": "0.38"
     },
     {
@@ -1180,7 +1180,7 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "204",
         "name": "Yoshiko",
-        "rating": "0.3",
+        "rating": "0.15",
         "win_percent": "0.4"
     },
     {
@@ -1188,7 +1188,7 @@ window.blkjk_tests = [
         "cluster": "2",
         "matches_played": "225",
         "name": "Nicky",
-        "rating": "6.52",
+        "rating": "3.26",
         "win_percent": "0.46"
     },
     {
@@ -1196,10 +1196,11 @@ window.blkjk_tests = [
         "cluster": "0",
         "matches_played": "192",
         "name": "Constantine",
-        "rating": "0.23",
+        "rating": "0.12",
         "win_percent": "0.4"
     }
 ]
+
 ;
 
 window.blkjk_test = JSON.stringify(blkjk_tests);
