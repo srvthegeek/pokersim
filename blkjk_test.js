@@ -5,7 +5,7 @@ window.blkjk_tests = [
         "matches_played": "212",
         "name": "Laurene",
         "rating": "1.54",
-        "win_percent": "0.44"
+        "win_percent": "44.34"
     },
     {
         "PlayerID": "96",
@@ -13,7 +13,7 @@ window.blkjk_tests = [
         "matches_played": "190",
         "name": "Alan",
         "rating": "4.49",
-        "win_percent": "0.47"
+        "win_percent": "46.84"
     },
     {
         "PlayerID": "129",
@@ -21,7 +21,7 @@ window.blkjk_tests = [
         "matches_played": "201",
         "name": "Deni",
         "rating": "0.14",
-        "win_percent": "0.42"
+        "win_percent": "42.29"
     },
     {
         "PlayerID": "110",
@@ -29,7 +29,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Clair",
         "rating": "0.13",
-        "win_percent": "0.42"
+        "win_percent": "41.67"
     },
     {
         "PlayerID": "6",
@@ -37,7 +37,7 @@ window.blkjk_tests = [
         "matches_played": "191",
         "name": "Levi",
         "rating": "1.56",
-        "win_percent": "0.44"
+        "win_percent": "43.98"
     },
     {
         "PlayerID": "5",
@@ -45,7 +45,7 @@ window.blkjk_tests = [
         "matches_played": "203",
         "name": "Donielle",
         "rating": "2.92",
-        "win_percent": "0.42"
+        "win_percent": "42.36"
     },
     {
         "PlayerID": "7",
@@ -53,7 +53,7 @@ window.blkjk_tests = [
         "matches_played": "183",
         "name": "Fina",
         "rating": "3.1",
-        "win_percent": "0.44"
+        "win_percent": "44.26"
     },
     {
         "PlayerID": "8",
@@ -61,7 +61,7 @@ window.blkjk_tests = [
         "matches_played": "181",
         "name": "Krysta",
         "rating": "3.0",
-        "win_percent": "0.44"
+        "win_percent": "44.2"
     },
     {
         "PlayerID": "9",
@@ -69,7 +69,7 @@ window.blkjk_tests = [
         "matches_played": "194",
         "name": "Kendell",
         "rating": "0.04",
-        "win_percent": "0.38"
+        "win_percent": "37.63"
     },
     {
         "PlayerID": "10",
@@ -77,7 +77,7 @@ window.blkjk_tests = [
         "matches_played": "191",
         "name": "Karen",
         "rating": "2.87",
-        "win_percent": "0.41"
+        "win_percent": "41.36"
     },
     {
         "PlayerID": "11",
@@ -85,7 +85,7 @@ window.blkjk_tests = [
         "matches_played": "236",
         "name": "Jammie",
         "rating": "4.45",
-        "win_percent": "0.46"
+        "win_percent": "45.76"
     },
     {
         "PlayerID": "12",
@@ -93,7 +93,7 @@ window.blkjk_tests = [
         "matches_played": "189",
         "name": "Audrie",
         "rating": "4.64",
-        "win_percent": "0.47"
+        "win_percent": "47.09"
     },
     {
         "PlayerID": "13",
@@ -101,7 +101,7 @@ window.blkjk_tests = [
         "matches_played": "206",
         "name": "Aleece",
         "rating": "2.98",
-        "win_percent": "0.42"
+        "win_percent": "41.75"
     },
     {
         "PlayerID": "14",
@@ -109,7 +109,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Shela",
         "rating": "2.88",
-        "win_percent": "0.39"
+        "win_percent": "39.11"
     },
     {
         "PlayerID": "15",
@@ -117,7 +117,7 @@ window.blkjk_tests = [
         "matches_played": "212",
         "name": "Dulcine",
         "rating": "0.13",
-        "win_percent": "0.41"
+        "win_percent": "41.04"
     },
     {
         "PlayerID": "16",
@@ -125,7 +125,7 @@ window.blkjk_tests = [
         "matches_played": "220",
         "name": "Brandice",
         "rating": "2.94",
-        "win_percent": "0.43"
+        "win_percent": "42.73"
     },
     {
         "PlayerID": "17",
@@ -133,7 +133,7 @@ window.blkjk_tests = [
         "matches_played": "171",
         "name": "Nicola",
         "rating": "1.51",
-        "win_percent": "0.44"
+        "win_percent": "44.44"
     },
     {
         "PlayerID": "18",
@@ -141,7 +141,7 @@ window.blkjk_tests = [
         "matches_played": "182",
         "name": "Griffy",
         "rating": "4.46",
-        "win_percent": "0.46"
+        "win_percent": "46.15"
     },
     {
         "PlayerID": "19",
@@ -149,7 +149,7 @@ window.blkjk_tests = [
         "matches_played": "237",
         "name": "Lauryn",
         "rating": "2.98",
-        "win_percent": "0.41"
+        "win_percent": "41.35"
     },
     {
         "PlayerID": "20",
@@ -157,7 +157,7 @@ window.blkjk_tests = [
         "matches_played": "186",
         "name": "Lane",
         "rating": "1.5",
-        "win_percent": "0.46"
+        "win_percent": "45.7"
     },
     {
         "PlayerID": "21",
@@ -165,7 +165,7 @@ window.blkjk_tests = [
         "matches_played": "214",
         "name": "Ivette",
         "rating": "0.13",
-        "win_percent": "0.36"
+        "win_percent": "35.98"
     },
     {
         "PlayerID": "22",
@@ -173,7 +173,7 @@ window.blkjk_tests = [
         "matches_played": "187",
         "name": "Denyse",
         "rating": "4.53",
-        "win_percent": "0.48"
+        "win_percent": "48.13"
     },
     {
         "PlayerID": "23",
@@ -181,7 +181,7 @@ window.blkjk_tests = [
         "matches_played": "208",
         "name": "Lars",
         "rating": "1.46",
-        "win_percent": "0.43"
+        "win_percent": "42.79"
     },
     {
         "PlayerID": "24",
@@ -189,7 +189,7 @@ window.blkjk_tests = [
         "matches_played": "207",
         "name": "Elora",
         "rating": "1.59",
-        "win_percent": "0.46"
+        "win_percent": "45.89"
     },
     {
         "PlayerID": "25",
@@ -197,7 +197,7 @@ window.blkjk_tests = [
         "matches_played": "190",
         "name": "Eleni",
         "rating": "1.52",
-        "win_percent": "0.46"
+        "win_percent": "46.32"
     },
     {
         "PlayerID": "26",
@@ -205,7 +205,7 @@ window.blkjk_tests = [
         "matches_played": "203",
         "name": "Orton",
         "rating": "1.53",
-        "win_percent": "0.46"
+        "win_percent": "46.31"
     },
     {
         "PlayerID": "27",
@@ -213,7 +213,7 @@ window.blkjk_tests = [
         "matches_played": "178",
         "name": "Barbabra",
         "rating": "0.08",
-        "win_percent": "0.37"
+        "win_percent": "37.08"
     },
     {
         "PlayerID": "28",
@@ -221,7 +221,7 @@ window.blkjk_tests = [
         "matches_played": "199",
         "name": "Evelin",
         "rating": "1.42",
-        "win_percent": "0.42"
+        "win_percent": "42.21"
     },
     {
         "PlayerID": "29",
@@ -229,7 +229,7 @@ window.blkjk_tests = [
         "matches_played": "189",
         "name": "Maye",
         "rating": "1.5",
-        "win_percent": "0.45"
+        "win_percent": "44.97"
     },
     {
         "PlayerID": "30",
@@ -237,7 +237,7 @@ window.blkjk_tests = [
         "matches_played": "206",
         "name": "Morna",
         "rating": "0.14",
-        "win_percent": "0.39"
+        "win_percent": "39.32"
     },
     {
         "PlayerID": "31",
@@ -245,7 +245,7 @@ window.blkjk_tests = [
         "matches_played": "188",
         "name": "Debi",
         "rating": "1.5",
-        "win_percent": "0.47"
+        "win_percent": "47.34"
     },
     {
         "PlayerID": "32",
@@ -253,7 +253,7 @@ window.blkjk_tests = [
         "matches_played": "189",
         "name": "Karia",
         "rating": "0.07",
-        "win_percent": "0.39"
+        "win_percent": "39.15"
     },
     {
         "PlayerID": "33",
@@ -261,7 +261,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Allyn",
         "rating": "3.08",
-        "win_percent": "0.44"
+        "win_percent": "43.75"
     },
     {
         "PlayerID": "34",
@@ -269,7 +269,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Emmye",
         "rating": "4.84",
-        "win_percent": "0.5"
+        "win_percent": "50.0"
     },
     {
         "PlayerID": "35",
@@ -277,7 +277,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Boote",
         "rating": "3.0",
-        "win_percent": "0.41"
+        "win_percent": "41.09"
     },
     {
         "PlayerID": "36",
@@ -285,7 +285,7 @@ window.blkjk_tests = [
         "matches_played": "229",
         "name": "Deloria",
         "rating": "3.23",
-        "win_percent": "0.45"
+        "win_percent": "44.54"
     },
     {
         "PlayerID": "37",
@@ -293,7 +293,7 @@ window.blkjk_tests = [
         "matches_played": "208",
         "name": "Dido",
         "rating": "0.13",
-        "win_percent": "0.39"
+        "win_percent": "39.42"
     },
     {
         "PlayerID": "38",
@@ -301,7 +301,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Boy",
         "rating": "0.06",
-        "win_percent": "0.36"
+        "win_percent": "36.14"
     },
     {
         "PlayerID": "39",
@@ -309,7 +309,7 @@ window.blkjk_tests = [
         "matches_played": "191",
         "name": "Donavon",
         "rating": "0.17",
-        "win_percent": "0.43"
+        "win_percent": "42.93"
     },
     {
         "PlayerID": "40",
@@ -317,7 +317,7 @@ window.blkjk_tests = [
         "matches_played": "196",
         "name": "Ansell",
         "rating": "0.13",
-        "win_percent": "0.37"
+        "win_percent": "36.73"
     },
     {
         "PlayerID": "41",
@@ -325,7 +325,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Crystie",
         "rating": "0.01",
-        "win_percent": "0.36"
+        "win_percent": "36.46"
     },
     {
         "PlayerID": "1",
@@ -333,7 +333,7 @@ window.blkjk_tests = [
         "matches_played": "197",
         "name": "Gussi",
         "rating": "3.03",
-        "win_percent": "0.41"
+        "win_percent": "40.61"
     },
     {
         "PlayerID": "43",
@@ -341,7 +341,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Claudelle",
         "rating": "2.88",
-        "win_percent": "0.41"
+        "win_percent": "40.63"
     },
     {
         "PlayerID": "44",
@@ -349,7 +349,7 @@ window.blkjk_tests = [
         "matches_played": "219",
         "name": "Lyndy",
         "rating": "1.43",
-        "win_percent": "0.43"
+        "win_percent": "43.38"
     },
     {
         "PlayerID": "45",
@@ -357,7 +357,7 @@ window.blkjk_tests = [
         "matches_played": "196",
         "name": "Bernardine",
         "rating": "3.0",
-        "win_percent": "0.43"
+        "win_percent": "42.86"
     },
     {
         "PlayerID": "46",
@@ -365,7 +365,7 @@ window.blkjk_tests = [
         "matches_played": "186",
         "name": "Michele",
         "rating": "0.15",
-        "win_percent": "0.4"
+        "win_percent": "40.32"
     },
     {
         "PlayerID": "47",
@@ -373,7 +373,7 @@ window.blkjk_tests = [
         "matches_played": "210",
         "name": "Marjy",
         "rating": "3.08",
-        "win_percent": "0.44"
+        "win_percent": "43.81"
     },
     {
         "PlayerID": "48",
@@ -381,7 +381,7 @@ window.blkjk_tests = [
         "matches_played": "203",
         "name": "Burr",
         "rating": "2.88",
-        "win_percent": "0.41"
+        "win_percent": "41.38"
     },
     {
         "PlayerID": "49",
@@ -389,7 +389,7 @@ window.blkjk_tests = [
         "matches_played": "207",
         "name": "Neron",
         "rating": "0.14",
-        "win_percent": "0.4"
+        "win_percent": "39.61"
     },
     {
         "PlayerID": "50",
@@ -397,7 +397,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Palm",
         "rating": "0.1",
-        "win_percent": "0.41"
+        "win_percent": "40.59"
     },
     {
         "PlayerID": "51",
@@ -405,7 +405,7 @@ window.blkjk_tests = [
         "matches_played": "189",
         "name": "Jarid",
         "rating": "4.97",
-        "win_percent": "0.53"
+        "win_percent": "52.91"
     },
     {
         "PlayerID": "52",
@@ -413,7 +413,7 @@ window.blkjk_tests = [
         "matches_played": "217",
         "name": "Alford",
         "rating": "2.88",
-        "win_percent": "0.41"
+        "win_percent": "41.47"
     },
     {
         "PlayerID": "53",
@@ -421,7 +421,7 @@ window.blkjk_tests = [
         "matches_played": "250",
         "name": "Lind",
         "rating": "0.07",
-        "win_percent": "0.37"
+        "win_percent": "37.2"
     },
     {
         "PlayerID": "54",
@@ -429,7 +429,7 @@ window.blkjk_tests = [
         "matches_played": "185",
         "name": "Elle",
         "rating": "1.5",
-        "win_percent": "0.44"
+        "win_percent": "43.78"
     },
     {
         "PlayerID": "55",
@@ -437,7 +437,7 @@ window.blkjk_tests = [
         "matches_played": "191",
         "name": "Chance",
         "rating": "0.05",
-        "win_percent": "0.37"
+        "win_percent": "37.17"
     },
     {
         "PlayerID": "56",
@@ -445,7 +445,7 @@ window.blkjk_tests = [
         "matches_played": "175",
         "name": "Minna",
         "rating": "0.14",
-        "win_percent": "0.4"
+        "win_percent": "40.0"
     },
     {
         "PlayerID": "57",
@@ -453,7 +453,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Alexandrina",
         "rating": "4.54",
-        "win_percent": "0.47"
+        "win_percent": "46.88"
     },
     {
         "PlayerID": "58",
@@ -461,7 +461,7 @@ window.blkjk_tests = [
         "matches_played": "195",
         "name": "Francesca",
         "rating": "2.9",
-        "win_percent": "0.43"
+        "win_percent": "43.08"
     },
     {
         "PlayerID": "59",
@@ -469,7 +469,7 @@ window.blkjk_tests = [
         "matches_played": "228",
         "name": "Ivie",
         "rating": "1.44",
-        "win_percent": "0.43"
+        "win_percent": "42.98"
     },
     {
         "PlayerID": "60",
@@ -477,7 +477,7 @@ window.blkjk_tests = [
         "matches_played": "227",
         "name": "Ahmed",
         "rating": "0.13",
-        "win_percent": "0.42"
+        "win_percent": "41.85"
     },
     {
         "PlayerID": "61",
@@ -485,7 +485,7 @@ window.blkjk_tests = [
         "matches_played": "194",
         "name": "Corinne",
         "rating": "2.96",
-        "win_percent": "0.43"
+        "win_percent": "42.78"
     },
     {
         "PlayerID": "62",
@@ -493,7 +493,7 @@ window.blkjk_tests = [
         "matches_played": "178",
         "name": "Ronna",
         "rating": "0.04",
-        "win_percent": "0.37"
+        "win_percent": "37.08"
     },
     {
         "PlayerID": "63",
@@ -501,7 +501,7 @@ window.blkjk_tests = [
         "matches_played": "216",
         "name": "Willa",
         "rating": "4.66",
-        "win_percent": "0.47"
+        "win_percent": "46.76"
     },
     {
         "PlayerID": "64",
@@ -509,7 +509,7 @@ window.blkjk_tests = [
         "matches_played": "187",
         "name": "Valli",
         "rating": "0.14",
-        "win_percent": "0.36"
+        "win_percent": "36.36"
     },
     {
         "PlayerID": "65",
@@ -517,7 +517,7 @@ window.blkjk_tests = [
         "matches_played": "203",
         "name": "Josi",
         "rating": "4.57",
-        "win_percent": "0.49"
+        "win_percent": "49.26"
     },
     {
         "PlayerID": "66",
@@ -525,7 +525,7 @@ window.blkjk_tests = [
         "matches_played": "217",
         "name": "Lisabeth",
         "rating": "4.62",
-        "win_percent": "0.46"
+        "win_percent": "45.62"
     },
     {
         "PlayerID": "67",
@@ -533,7 +533,7 @@ window.blkjk_tests = [
         "matches_played": "195",
         "name": "Sutton",
         "rating": "0.07",
-        "win_percent": "0.37"
+        "win_percent": "36.92"
     },
     {
         "PlayerID": "68",
@@ -541,7 +541,7 @@ window.blkjk_tests = [
         "matches_played": "205",
         "name": "Scotty",
         "rating": "2.98",
-        "win_percent": "0.43"
+        "win_percent": "43.41"
     },
     {
         "PlayerID": "69",
@@ -549,7 +549,7 @@ window.blkjk_tests = [
         "matches_played": "194",
         "name": "Vania",
         "rating": "0.0",
-        "win_percent": "0.37"
+        "win_percent": "36.6"
     },
     {
         "PlayerID": "70",
@@ -557,7 +557,7 @@ window.blkjk_tests = [
         "matches_played": "228",
         "name": "Shelton",
         "rating": "0.08",
-        "win_percent": "0.39"
+        "win_percent": "38.6"
     },
     {
         "PlayerID": "71",
@@ -565,7 +565,7 @@ window.blkjk_tests = [
         "matches_played": "193",
         "name": "Syd",
         "rating": "0.07",
-        "win_percent": "0.35"
+        "win_percent": "35.23"
     },
     {
         "PlayerID": "72",
@@ -573,7 +573,7 @@ window.blkjk_tests = [
         "matches_played": "185",
         "name": "Filia",
         "rating": "0.04",
-        "win_percent": "0.39"
+        "win_percent": "39.46"
     },
     {
         "PlayerID": "73",
@@ -581,7 +581,7 @@ window.blkjk_tests = [
         "matches_played": "181",
         "name": "Gabi",
         "rating": "0.12",
-        "win_percent": "0.38"
+        "win_percent": "37.57"
     },
     {
         "PlayerID": "74",
@@ -589,7 +589,7 @@ window.blkjk_tests = [
         "matches_played": "209",
         "name": "Pauline",
         "rating": "0.09",
-        "win_percent": "0.41"
+        "win_percent": "41.15"
     },
     {
         "PlayerID": "75",
@@ -597,7 +597,7 @@ window.blkjk_tests = [
         "matches_played": "191",
         "name": "Kahaleel",
         "rating": "0.14",
-        "win_percent": "0.42"
+        "win_percent": "41.88"
     },
     {
         "PlayerID": "76",
@@ -605,7 +605,7 @@ window.blkjk_tests = [
         "matches_played": "189",
         "name": "Sher",
         "rating": "5.0",
-        "win_percent": "0.53"
+        "win_percent": "53.44"
     },
     {
         "PlayerID": "77",
@@ -613,7 +613,7 @@ window.blkjk_tests = [
         "matches_played": "200",
         "name": "Antony",
         "rating": "4.58",
-        "win_percent": "0.46"
+        "win_percent": "45.5"
     },
     {
         "PlayerID": "78",
@@ -621,7 +621,7 @@ window.blkjk_tests = [
         "matches_played": "201",
         "name": "Salvidor",
         "rating": "4.79",
-        "win_percent": "0.52"
+        "win_percent": "51.74"
     },
     {
         "PlayerID": "79",
@@ -629,7 +629,7 @@ window.blkjk_tests = [
         "matches_played": "211",
         "name": "Dulcinea",
         "rating": "3.25",
-        "win_percent": "0.44"
+        "win_percent": "43.6"
     },
     {
         "PlayerID": "80",
@@ -637,7 +637,7 @@ window.blkjk_tests = [
         "matches_played": "186",
         "name": "Kathi",
         "rating": "3.0",
-        "win_percent": "0.42"
+        "win_percent": "41.94"
     },
     {
         "PlayerID": "81",
@@ -645,7 +645,7 @@ window.blkjk_tests = [
         "matches_played": "182",
         "name": "Laina",
         "rating": "2.83",
-        "win_percent": "0.4"
+        "win_percent": "39.56"
     },
     {
         "PlayerID": "82",
@@ -653,7 +653,7 @@ window.blkjk_tests = [
         "matches_played": "225",
         "name": "Emilee",
         "rating": "0.14",
-        "win_percent": "0.41"
+        "win_percent": "40.89"
     },
     {
         "PlayerID": "83",
@@ -661,7 +661,7 @@ window.blkjk_tests = [
         "matches_played": "193",
         "name": "Gunar",
         "rating": "3.22",
-        "win_percent": "0.42"
+        "win_percent": "42.49"
     },
     {
         "PlayerID": "84",
@@ -669,7 +669,7 @@ window.blkjk_tests = [
         "matches_played": "195",
         "name": "Anett",
         "rating": "0.09",
-        "win_percent": "0.38"
+        "win_percent": "37.95"
     },
     {
         "PlayerID": "85",
@@ -677,7 +677,7 @@ window.blkjk_tests = [
         "matches_played": "195",
         "name": "Nonna",
         "rating": "0.17",
-        "win_percent": "0.41"
+        "win_percent": "41.03"
     },
     {
         "PlayerID": "86",
@@ -685,7 +685,7 @@ window.blkjk_tests = [
         "matches_played": "196",
         "name": "Kimble",
         "rating": "4.44",
-        "win_percent": "0.45"
+        "win_percent": "45.41"
     },
     {
         "PlayerID": "87",
@@ -693,7 +693,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Dalt",
         "rating": "2.96",
-        "win_percent": "0.41"
+        "win_percent": "40.59"
     },
     {
         "PlayerID": "88",
@@ -701,7 +701,7 @@ window.blkjk_tests = [
         "matches_played": "206",
         "name": "Annmarie",
         "rating": "1.54",
-        "win_percent": "0.47"
+        "win_percent": "46.6"
     },
     {
         "PlayerID": "89",
@@ -709,7 +709,7 @@ window.blkjk_tests = [
         "matches_played": "212",
         "name": "Abigael",
         "rating": "4.95",
-        "win_percent": "0.54"
+        "win_percent": "53.77"
     },
     {
         "PlayerID": "90",
@@ -717,7 +717,7 @@ window.blkjk_tests = [
         "matches_played": "201",
         "name": "Pail",
         "rating": "4.45",
-        "win_percent": "0.45"
+        "win_percent": "44.78"
     },
     {
         "PlayerID": "91",
@@ -725,7 +725,7 @@ window.blkjk_tests = [
         "matches_played": "194",
         "name": "Bent",
         "rating": "1.33",
-        "win_percent": "0.42"
+        "win_percent": "41.75"
     },
     {
         "PlayerID": "92",
@@ -733,7 +733,7 @@ window.blkjk_tests = [
         "matches_played": "186",
         "name": "Rubina",
         "rating": "1.54",
-        "win_percent": "0.45"
+        "win_percent": "44.62"
     },
     {
         "PlayerID": "93",
@@ -741,7 +741,7 @@ window.blkjk_tests = [
         "matches_played": "175",
         "name": "Hort",
         "rating": "1.62",
-        "win_percent": "0.49"
+        "win_percent": "48.57"
     },
     {
         "PlayerID": "94",
@@ -749,7 +749,7 @@ window.blkjk_tests = [
         "matches_played": "183",
         "name": "Sanford",
         "rating": "1.46",
-        "win_percent": "0.44"
+        "win_percent": "43.72"
     },
     {
         "PlayerID": "95",
@@ -757,7 +757,7 @@ window.blkjk_tests = [
         "matches_played": "218",
         "name": "Jacquelyn",
         "rating": "0.13",
-        "win_percent": "0.41"
+        "win_percent": "41.28"
     },
     {
         "PlayerID": "2",
@@ -765,7 +765,7 @@ window.blkjk_tests = [
         "matches_played": "200",
         "name": "Sandro",
         "rating": "3.17",
-        "win_percent": "0.45"
+        "win_percent": "44.5"
     },
     {
         "PlayerID": "97",
@@ -773,7 +773,7 @@ window.blkjk_tests = [
         "matches_played": "182",
         "name": "Riccardo",
         "rating": "3.38",
-        "win_percent": "0.45"
+        "win_percent": "45.05"
     },
     {
         "PlayerID": "98",
@@ -781,7 +781,7 @@ window.blkjk_tests = [
         "matches_played": "220",
         "name": "Carina",
         "rating": "1.44",
-        "win_percent": "0.42"
+        "win_percent": "42.27"
     },
     {
         "PlayerID": "99",
@@ -789,7 +789,7 @@ window.blkjk_tests = [
         "matches_played": "207",
         "name": "Fernanda",
         "rating": "4.8",
-        "win_percent": "0.48"
+        "win_percent": "47.83"
     },
     {
         "PlayerID": "100",
@@ -797,7 +797,7 @@ window.blkjk_tests = [
         "matches_played": "190",
         "name": "Susanetta",
         "rating": "4.45",
-        "win_percent": "0.45"
+        "win_percent": "45.26"
     },
     {
         "PlayerID": "101",
@@ -805,7 +805,7 @@ window.blkjk_tests = [
         "matches_played": "205",
         "name": "Eddy",
         "rating": "3.08",
-        "win_percent": "0.42"
+        "win_percent": "42.44"
     },
     {
         "PlayerID": "102",
@@ -813,7 +813,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Ephrayim",
         "rating": "0.02",
-        "win_percent": "0.34"
+        "win_percent": "33.85"
     },
     {
         "PlayerID": "103",
@@ -821,7 +821,7 @@ window.blkjk_tests = [
         "matches_played": "203",
         "name": "Jaime",
         "rating": "0.07",
-        "win_percent": "0.38"
+        "win_percent": "37.93"
     },
     {
         "PlayerID": "104",
@@ -829,7 +829,7 @@ window.blkjk_tests = [
         "matches_played": "209",
         "name": "Kristan",
         "rating": "0.09",
-        "win_percent": "0.36"
+        "win_percent": "36.36"
     },
     {
         "PlayerID": "105",
@@ -837,7 +837,7 @@ window.blkjk_tests = [
         "matches_played": "198",
         "name": "Maureene",
         "rating": "0.17",
-        "win_percent": "0.41"
+        "win_percent": "41.41"
     },
     {
         "PlayerID": "106",
@@ -845,7 +845,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Lonna",
         "rating": "0.12",
-        "win_percent": "0.41"
+        "win_percent": "41.15"
     },
     {
         "PlayerID": "107",
@@ -853,7 +853,7 @@ window.blkjk_tests = [
         "matches_played": "218",
         "name": "Augie",
         "rating": "3.02",
-        "win_percent": "0.44"
+        "win_percent": "44.5"
     },
     {
         "PlayerID": "108",
@@ -861,7 +861,7 @@ window.blkjk_tests = [
         "matches_played": "193",
         "name": "Barbabra",
         "rating": "1.5",
-        "win_percent": "0.44"
+        "win_percent": "43.52"
     },
     {
         "PlayerID": "109",
@@ -869,7 +869,7 @@ window.blkjk_tests = [
         "matches_played": "221",
         "name": "Idalia",
         "rating": "4.51",
-        "win_percent": "0.46"
+        "win_percent": "46.15"
     },
     {
         "PlayerID": "4",
@@ -877,7 +877,7 @@ window.blkjk_tests = [
         "matches_played": "217",
         "name": "Dyanna",
         "rating": "1.57",
-        "win_percent": "0.46"
+        "win_percent": "46.08"
     },
     {
         "PlayerID": "111",
@@ -885,7 +885,7 @@ window.blkjk_tests = [
         "matches_played": "180",
         "name": "Knox",
         "rating": "3.01",
-        "win_percent": "0.43"
+        "win_percent": "43.33"
     },
     {
         "PlayerID": "112",
@@ -893,7 +893,7 @@ window.blkjk_tests = [
         "matches_played": "203",
         "name": "Heinrik",
         "rating": "4.45",
-        "win_percent": "0.45"
+        "win_percent": "44.83"
     },
     {
         "PlayerID": "113",
@@ -901,7 +901,7 @@ window.blkjk_tests = [
         "matches_played": "199",
         "name": "Gene",
         "rating": "3.1",
-        "win_percent": "0.41"
+        "win_percent": "40.7"
     },
     {
         "PlayerID": "114",
@@ -909,7 +909,7 @@ window.blkjk_tests = [
         "matches_played": "198",
         "name": "Kiah",
         "rating": "4.68",
-        "win_percent": "0.48"
+        "win_percent": "47.98"
     },
     {
         "PlayerID": "115",
@@ -917,7 +917,7 @@ window.blkjk_tests = [
         "matches_played": "194",
         "name": "Stearne",
         "rating": "2.92",
-        "win_percent": "0.43"
+        "win_percent": "42.78"
     },
     {
         "PlayerID": "116",
@@ -925,7 +925,7 @@ window.blkjk_tests = [
         "matches_played": "195",
         "name": "Ricca",
         "rating": "1.42",
-        "win_percent": "0.43"
+        "win_percent": "42.56"
     },
     {
         "PlayerID": "117",
@@ -933,7 +933,7 @@ window.blkjk_tests = [
         "matches_played": "173",
         "name": "Karia",
         "rating": "2.9",
-        "win_percent": "0.41"
+        "win_percent": "41.04"
     },
     {
         "PlayerID": "118",
@@ -941,7 +941,7 @@ window.blkjk_tests = [
         "matches_played": "216",
         "name": "Florence",
         "rating": "0.09",
-        "win_percent": "0.39"
+        "win_percent": "39.35"
     },
     {
         "PlayerID": "119",
@@ -949,7 +949,7 @@ window.blkjk_tests = [
         "matches_played": "190",
         "name": "Elton",
         "rating": "0.06",
-        "win_percent": "0.41"
+        "win_percent": "40.53"
     },
     {
         "PlayerID": "120",
@@ -957,7 +957,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Yoko",
         "rating": "3.07",
-        "win_percent": "0.44"
+        "win_percent": "44.06"
     },
     {
         "PlayerID": "121",
@@ -965,7 +965,7 @@ window.blkjk_tests = [
         "matches_played": "195",
         "name": "Golda",
         "rating": "1.45",
-        "win_percent": "0.46"
+        "win_percent": "45.64"
     },
     {
         "PlayerID": "122",
@@ -973,7 +973,7 @@ window.blkjk_tests = [
         "matches_played": "210",
         "name": "Carson",
         "rating": "0.07",
-        "win_percent": "0.35"
+        "win_percent": "34.76"
     },
     {
         "PlayerID": "123",
@@ -981,7 +981,7 @@ window.blkjk_tests = [
         "matches_played": "205",
         "name": "Hammad",
         "rating": "3.05",
-        "win_percent": "0.44"
+        "win_percent": "43.9"
     },
     {
         "PlayerID": "124",
@@ -989,7 +989,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Candide",
         "rating": "4.5",
-        "win_percent": "0.47"
+        "win_percent": "47.03"
     },
     {
         "PlayerID": "125",
@@ -997,7 +997,7 @@ window.blkjk_tests = [
         "matches_played": "219",
         "name": "Ardenia",
         "rating": "1.54",
-        "win_percent": "0.44"
+        "win_percent": "43.84"
     },
     {
         "PlayerID": "126",
@@ -1005,7 +1005,7 @@ window.blkjk_tests = [
         "matches_played": "188",
         "name": "Rikki",
         "rating": "4.5",
-        "win_percent": "0.46"
+        "win_percent": "45.74"
     },
     {
         "PlayerID": "127",
@@ -1013,7 +1013,7 @@ window.blkjk_tests = [
         "matches_played": "201",
         "name": "Marcile",
         "rating": "0.16",
-        "win_percent": "0.4"
+        "win_percent": "40.3"
     },
     {
         "PlayerID": "128",
@@ -1021,7 +1021,7 @@ window.blkjk_tests = [
         "matches_played": "227",
         "name": "Ralina",
         "rating": "0.06",
-        "win_percent": "0.36"
+        "win_percent": "35.68"
     },
     {
         "PlayerID": "3",
@@ -1029,7 +1029,7 @@ window.blkjk_tests = [
         "matches_played": "190",
         "name": "Wallis",
         "rating": "1.44",
-        "win_percent": "0.43"
+        "win_percent": "43.16"
     },
     {
         "PlayerID": "130",
@@ -1037,7 +1037,7 @@ window.blkjk_tests = [
         "matches_played": "219",
         "name": "Christoffer",
         "rating": "0.13",
-        "win_percent": "0.41"
+        "win_percent": "41.1"
     },
     {
         "PlayerID": "131",
@@ -1045,7 +1045,7 @@ window.blkjk_tests = [
         "matches_played": "217",
         "name": "Burnaby",
         "rating": "0.1",
-        "win_percent": "0.41"
+        "win_percent": "41.01"
     },
     {
         "PlayerID": "132",
@@ -1053,7 +1053,7 @@ window.blkjk_tests = [
         "matches_played": "194",
         "name": "Osborne",
         "rating": "3.06",
-        "win_percent": "0.41"
+        "win_percent": "41.24"
     },
     {
         "PlayerID": "133",
@@ -1061,7 +1061,7 @@ window.blkjk_tests = [
         "matches_played": "201",
         "name": "Edith",
         "rating": "4.67",
-        "win_percent": "0.48"
+        "win_percent": "47.76"
     },
     {
         "PlayerID": "134",
@@ -1069,7 +1069,7 @@ window.blkjk_tests = [
         "matches_played": "185",
         "name": "Berrie",
         "rating": "1.49",
-        "win_percent": "0.44"
+        "win_percent": "44.32"
     },
     {
         "PlayerID": "135",
@@ -1077,7 +1077,7 @@ window.blkjk_tests = [
         "matches_played": "179",
         "name": "Arlene",
         "rating": "0.13",
-        "win_percent": "0.39"
+        "win_percent": "39.11"
     },
     {
         "PlayerID": "136",
@@ -1085,7 +1085,7 @@ window.blkjk_tests = [
         "matches_played": "194",
         "name": "Anne",
         "rating": "0.14",
-        "win_percent": "0.4"
+        "win_percent": "39.69"
     },
     {
         "PlayerID": "137",
@@ -1093,7 +1093,7 @@ window.blkjk_tests = [
         "matches_played": "194",
         "name": "Valdemar",
         "rating": "1.39",
-        "win_percent": "0.42"
+        "win_percent": "41.75"
     },
     {
         "PlayerID": "138",
@@ -1101,7 +1101,7 @@ window.blkjk_tests = [
         "matches_played": "190",
         "name": "Wallace",
         "rating": "3.05",
-        "win_percent": "0.44"
+        "win_percent": "44.21"
     },
     {
         "PlayerID": "139",
@@ -1109,7 +1109,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Trixy",
         "rating": "0.12",
-        "win_percent": "0.38"
+        "win_percent": "38.02"
     },
     {
         "PlayerID": "140",
@@ -1117,7 +1117,7 @@ window.blkjk_tests = [
         "matches_played": "210",
         "name": "Kimmy",
         "rating": "4.58",
-        "win_percent": "0.47"
+        "win_percent": "46.67"
     },
     {
         "PlayerID": "141",
@@ -1125,7 +1125,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Fidelity",
         "rating": "0.14",
-        "win_percent": "0.42"
+        "win_percent": "42.08"
     },
     {
         "PlayerID": "142",
@@ -1133,7 +1133,7 @@ window.blkjk_tests = [
         "matches_played": "211",
         "name": "Valina",
         "rating": "1.36",
-        "win_percent": "0.42"
+        "win_percent": "41.71"
     },
     {
         "PlayerID": "143",
@@ -1141,7 +1141,7 @@ window.blkjk_tests = [
         "matches_played": "203",
         "name": "Edy",
         "rating": "4.42",
-        "win_percent": "0.46"
+        "win_percent": "46.31"
     },
     {
         "PlayerID": "144",
@@ -1149,7 +1149,7 @@ window.blkjk_tests = [
         "matches_played": "202",
         "name": "Shana",
         "rating": "0.09",
-        "win_percent": "0.39"
+        "win_percent": "38.61"
     },
     {
         "PlayerID": "145",
@@ -1157,7 +1157,7 @@ window.blkjk_tests = [
         "matches_played": "188",
         "name": "Alyson",
         "rating": "3.09",
-        "win_percent": "0.44"
+        "win_percent": "44.15"
     },
     {
         "PlayerID": "146",
@@ -1165,7 +1165,7 @@ window.blkjk_tests = [
         "matches_played": "221",
         "name": "Lise",
         "rating": "1.45",
-        "win_percent": "0.43"
+        "win_percent": "43.44"
     },
     {
         "PlayerID": "147",
@@ -1173,7 +1173,7 @@ window.blkjk_tests = [
         "matches_played": "205",
         "name": "Brigid",
         "rating": "0.05",
-        "win_percent": "0.38"
+        "win_percent": "38.05"
     },
     {
         "PlayerID": "148",
@@ -1181,7 +1181,7 @@ window.blkjk_tests = [
         "matches_played": "204",
         "name": "Yoshiko",
         "rating": "0.15",
-        "win_percent": "0.4"
+        "win_percent": "40.2"
     },
     {
         "PlayerID": "149",
@@ -1189,7 +1189,7 @@ window.blkjk_tests = [
         "matches_played": "225",
         "name": "Nicky",
         "rating": "3.26",
-        "win_percent": "0.46"
+        "win_percent": "45.78"
     },
     {
         "PlayerID": "150",
@@ -1197,7 +1197,7 @@ window.blkjk_tests = [
         "matches_played": "192",
         "name": "Constantine",
         "rating": "0.12",
-        "win_percent": "0.4"
+        "win_percent": "40.1"
     }
 ]
 
