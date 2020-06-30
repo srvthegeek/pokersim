@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles2.css">
+    <title>PUBG</title>
+</head>
+<body>
+<header>
+    <img src="images/logo_pubg-01.png" alt="Logo">
+    <h1>PUBG Lobby</h1>
+    <p id="team" style="font-size: 3vh;" style="font-weight: bolder;">Team Biobots</p>
+</header>
+
+<script> var counter = 0; </script>
+
+<nav class="topnav">
+    <a class="active" href="Casino_Homepage.html">Homepage</a>
+    <a href="Poker.html">Poker</a>
+    <a href="blackjack.html">Blackjack</a>
+    <a href="pubg.html">PUBG</a>
+    <!-- <a href="">Roulette</a> -->
+
+    <div class="dropdown">
+        <button class="dropbtn">Choose Player</button>
+        <div class="dropdown-content">
+            <a href="ppla_1.html">Caustic</a>
+            <a href="ppla_2.html">Reyna</a>
+            <a href="ppla_3.html">Jett</a>
+            <a href="ppla_3.html">Wattson</a>
+            <!-- <a href="pla_4.html">Sova</a>
+            <a href="pla_5.html">Wendy</a> -->
+        </div>
+      </div>
+      <button class="joinlobby" onclick="setTimeout(redirectp1, 1200)">Join Team</button>
+    <!-- <button class="runbtn" onclick="setTimeout(showresult, 1200)">Run Simulation</button> -->
+</nav>
+
+<script type="text/javascript" src="showresult.js"></script>
+<script type="text/javascript" src="redirect.js"></script>
+<script type="text/javascript" src="pubg.js"></script>
+<script type="text/javascript" src="blkjk_test.js"></script>
+
+<aside class="dialogue1">
+    <div class="matchresults">
+        <h2>Lifetime Stats</h2>
+        <!-- pubg Cluster:  -->
+
+        <div>
+            Name: Caustic
+            <br>
+        </div>
+
+        <div id="name">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('name');
+                output1.innerHTML = 'ID: '+userdata[0].id;
+            </script>
+            <br>
+        </div>
+
+        <div id="matchesPlayed">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('matchesPlayed');
+                output1.innerHTML = 'Matches Played: '+userdata[0].matchesPlayed;
+            </script>
+            <br>
+        </div>
+
+
+        <div id="winPercent">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('winPercent');
+                console.log(output1)
+                output1.innerHTML = 'Win Percent: '+userdata[0].winPercent;
+            </script>
+            <br>
+        </div>
+
+        <div id="kills">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('kills');
+                console.log(output1)
+                output1.innerHTML = 'Kills: '+userdata[0].kills;
+            </script>
+            <br>
+        </div>
+
+        <div id="cluster">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('cluster');
+                output1.innerHTML = 'Current Cluster: '+userdata[0].clusters;
+            </script>
+            <br>
+        </div>
+
+        <div id="rating">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('rating');
+                output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+            </script>
+            <br>
+        </div>
+        <!-- <div id="show1" style="display: none;">blkjk_test Cluster: </div> -->
+    </div>
+</aside>
+
+
+
+<!-- Attempting to make dynamic textbox using data from json file -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+
+
+<script type="text/javascript" src="js/Poker1.json"></script>
+
+
+<div class="playerIDs">
+
+   
+    <div class="playerID1 active_pla">
+        <div id="name1">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('name1');
+                output1.innerHTML = 'ID: '+userdata[0].id;
+            </script>
+            <br>
+        </div>
+        <div id="cluster1">
+            <script type="text/javascript">
+
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('cluster1');
+                output1.innerHTML = 'Cluster: '+userdata[0].clusters;
+
+
+            document.getElementById("runbtn").addEventListener("click", change);
+
+            function change() {
+                var userdata = JSON.parse(blkjk_test);
+                var output1 = document.getElementById('cluster1');
+                output1.innerHTML = 'Cluster: '+userdata[0].clusters;
+            }
+
+            </script>
+            <br>
+        </div>
+
+        <div id="rating2">
+            <script type="text/javascript">
+                var userdata = JSON.parse(pubg);
+                var output1 = document.getElementById('rating2');
+                output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+
+                document.getElementById("runbtn").addEventListener("click", change);
+
+                function change() {
+                    var userdata = JSON.parse(blkjk_test);
+                    var output1 = document.getElementById('rating2');
+                    output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+                }
+            </script>
+            <br>
+        </div>
+
+    </div>
+    <!-- <div class="playerID2">
+        player2
+    </div>
+
+    <div class="playerID3">
+        player3
+    </div>
+
+    <div class="playerID4">
+        player4
+    </div>
+
+    <div class="playerID5">
+        player5
+    </div>
+
+    <div class="playerID6">
+        player6
+    </div> -->
+
+</div>
+  
+
+
+
+</body>

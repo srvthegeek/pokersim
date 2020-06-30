@@ -98,3 +98,10 @@ function redirectb5() {
     window.location.href="blobbysim5.html"   
     }
 }
+
+function redirectp1() {
+
+    if (counter == 0) {
+    window.location.href="plobby1.html";
+    }
+}
