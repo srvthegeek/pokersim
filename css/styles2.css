@@ -268,9 +268,9 @@ section{
   position: absolute;
   top: 35%;
   left: 20%;
-  grid-template-columns: 170px 170px;
-  grid-gap: 70px 150px;
-  grid-template-rows: 80px 80px;
+  grid-template-columns: 150px 150px;
+  grid-gap: 70px 120px;
+  grid-template-rows: 170px 170px;
 }
 .active_pla{
   border: solid 2px #ffffff;
