@@ -105,3 +105,24 @@ function redirectp1() {
     window.location.href="plobby1.html";
     }
 }
+
+function redirectp2() {
+
+    if (counter == 0) {
+    window.location.href="plobby2.html";
+    }
+}
+
+function redirectp3() {
+
+    if (counter == 0) {
+    window.location.href="plobby3.html";
+    }
+}
+
+function redirectp4() {
+
+    if (counter == 0) {
+    window.location.href="plobby4.html";
+    }
+}

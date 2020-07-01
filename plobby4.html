@@ -32,7 +32,7 @@
             <a href="pla_5.html">Wendy</a> -->
         </div>
       </div>
-      <button class="joinlobby" onclick="setTimeout(redirectp1, 1200)">Join Team</button>
+      <button class="joinlobby" onclick="setTimeout(redirectp4, 1200)">Join Team</button>
     <!-- <button class="runbtn" onclick="setTimeout(showresult, 1200)">Run Simulation</button> -->
 </nav>
 
@@ -47,7 +47,7 @@
         <!-- pubg Cluster:  -->
 
         <div>
-            Name: Caustic
+            Name: Wattson
             <br>
         </div>
 
@@ -55,7 +55,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('name');
-                output1.innerHTML = 'ID: '+userdata[0].id;
+                output1.innerHTML = 'ID: '+userdata[3].id;
             </script>
             <br>
         </div>
@@ -64,7 +64,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('matchesPlayed');
-                output1.innerHTML = 'Matches Played: '+userdata[0].matchesPlayed;
+                output1.innerHTML = 'Matches Played: '+userdata[3].matchesPlayed;
             </script>
             <br>
         </div>
@@ -75,7 +75,7 @@
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('winPercent');
                 console.log(output1)
-                output1.innerHTML = 'Win Percent: '+userdata[0].winPercent;
+                output1.innerHTML = 'Win Percent: '+userdata[3].winPercent;
             </script>
             <br>
         </div>
@@ -85,7 +85,7 @@
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('kills');
                 console.log(output1)
-                output1.innerHTML = 'Kills: '+userdata[0].kills;
+                output1.innerHTML = 'Kills: '+userdata[3].kills;
             </script>
             <br>
         </div>
@@ -94,7 +94,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('cluster');
-                output1.innerHTML = 'Current Cluster: '+userdata[0].clusters;
+                output1.innerHTML = 'Current Cluster: '+userdata[3].clusters;
             </script>
             <br>
         </div>
@@ -103,7 +103,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('rating');
-                output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+                output1.innerHTML = 'Rating &#11088: '+userdata[3].ratings;
             </script>
             <br>
         </div>
@@ -128,12 +128,12 @@
 
    
     <div class="playerID1_pok active_pla">
-        <img src="images/man.svg" alt="">
+        <img src="images/woman.svg" alt="">
         <div id="name1">
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('name1');
-                output1.innerHTML = 'ID: '+userdata[0].id;
+                output1.innerHTML = 'ID: '+userdata[3].id;
             </script>
             <br>
         </div>
@@ -142,7 +142,7 @@
 
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('cluster1');
-                output1.innerHTML = 'Cluster: '+userdata[0].clusters;
+                output1.innerHTML = 'Cluster: '+userdata[3].clusters;
 
 
             document.getElementById("runbtn").addEventListener("click", change);
@@ -150,7 +150,7 @@
             function change() {
                 var userdata = JSON.parse(blkjk_test);
                 var output1 = document.getElementById('cluster1');
-                output1.innerHTML = 'Cluster: '+userdata[0].clusters;
+                output1.innerHTML = 'Cluster: '+userdata[3].clusters;
             }
 
             </script>
@@ -161,14 +161,14 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('rating2');
-                output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+                output1.innerHTML = 'Rating &#11088: '+userdata[3].ratings;
 
                 document.getElementById("runbtn").addEventListener("click", change);
 
                 function change() {
                     var userdata = JSON.parse(blkjk_test);
                     var output1 = document.getElementById('rating2');
-                    output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+                    output1.innerHTML = 'Rating &#11088: '+userdata[3].ratings;
                 }
             </script>
             <br>
@@ -181,7 +181,7 @@
 
         for (let i=0; i<100; i++){
         var random_player1 = JSON.parse(pubg)[Math.floor(Math.random() * 1500)];
-         if(random_player1.clusters == 0 && random_player1.id !== 'E23l5Bb3y') {
+         if(random_player1.clusters == 3 && random_player1.id !== 'W1WZB7') {
             console.log(random_player1.clusters)
             console.log(random_player1)
             break;
@@ -191,7 +191,7 @@
     </script>
 
     <div class="playerID2_pok">
-        <img src="images/woman.svg" alt="">
+        <img src="images/man.svg" alt="">
         <div id="name2">
             <script type="text/javascript">
                 var userdata = random_player1;
@@ -249,7 +249,7 @@
 
         for (let i=0; i<100; i++){
         var random_player2 = JSON.parse(pubg)[Math.floor(Math.random() * 1500)];
-         if(random_player2.clusters == 0 && random_player2.id !== 'E23l5Bb3y' && random_player2.id !== random_player1.id) {
+         if(random_player2.clusters == 3 && random_player2.id !== 'W1WZB7' && random_player2.id !== random_player1.id) {
             console.log(random_player2.clusters)
             console.log(random_player2)
             break;
@@ -260,7 +260,7 @@
 
 
     <div class="playerID3_pok">
-        <img src="images/woman.svg" alt="">
+        <img src="images/man.svg" alt="">
         <div id="name3">
             <script type="text/javascript">
                 var userdata = random_player2;
@@ -318,7 +318,7 @@
 
         for (let i=0; i<100; i++){
         var random_player3 = JSON.parse(pubg)[Math.floor(Math.random() * 1500)];
-         if(random_player3.clusters == 0 && random_player3.id !== 'E23l5Bb3y' && random_player3.id !== random_player1.id && random_player3.id !== random_player2.id) {
+         if(random_player3.clusters == 3 && random_player3.id !== 'W1WZB7' && random_player3.id !== random_player1.id && random_player3.id !== random_player2.id) {
             console.log(random_player3.clusters)
             console.log(random_player3)
             break;
@@ -328,7 +328,7 @@
     </script>
 
     <div class="playerID4_pok">
-        <img src="images/man.svg" alt="">
+        <img src="images/woman.svg" alt="">
 
         <div id="name4">
             <script type="text/javascript">
@@ -387,7 +387,7 @@
 
         for (let i=0; i<100; i++){
         var random_player4 = JSON.parse(pubg)[Math.floor(Math.random() * 1500)];
-         if(random_player4.clusters == 0 && random_player4.id !== 'E23l5Bb3y' && random_player4.id !== random_player1.id && random_player4.id !== random_player2.id && random_player4.id !== random_player3.id) {
+         if(random_player4.clusters == 3 && random_player4.id !== 'W1WZB7' && random_player4.id !== random_player1.id && random_player4.id !== random_player2.id && random_player4.id !== random_player3.id) {
             console.log(random_player4.clusters)
             console.log(random_player4)
             break;

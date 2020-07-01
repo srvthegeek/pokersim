@@ -32,7 +32,7 @@
             <a href="pla_5.html">Wendy</a> -->
         </div>
       </div>
-      <button class="joinlobby" onclick="setTimeout(redirectp1, 1200)">Join Team</button>
+      <button class="joinlobby" onclick="setTimeout(redirectp4, 1200)">Join Team</button>
     <!-- <button class="runbtn" onclick="setTimeout(showresult, 1200)">Run Simulation</button> -->
 </nav>
 
@@ -47,7 +47,7 @@
         <!-- pubg Cluster:  -->
 
         <div>
-            Name: Caustic
+            Name: Wattson
             <br>
         </div>
 
@@ -55,7 +55,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('name');
-                output1.innerHTML = 'ID: '+userdata[0].id;
+                output1.innerHTML = 'ID: '+userdata[3].id;
             </script>
             <br>
         </div>
@@ -64,7 +64,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('matchesPlayed');
-                output1.innerHTML = 'Matches Played: '+userdata[0].matchesPlayed;
+                output1.innerHTML = 'Matches Played: '+userdata[3].matchesPlayed;
             </script>
             <br>
         </div>
@@ -75,7 +75,7 @@
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('winPercent');
                 console.log(output1)
-                output1.innerHTML = 'Win Percent: '+userdata[0].winPercent;
+                output1.innerHTML = 'Win Percent: '+userdata[3].winPercent;
             </script>
             <br>
         </div>
@@ -85,7 +85,7 @@
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('kills');
                 console.log(output1)
-                output1.innerHTML = 'Kills: '+userdata[0].kills;
+                output1.innerHTML = 'Kills: '+userdata[3].kills;
             </script>
             <br>
         </div>
@@ -94,7 +94,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('cluster');
-                output1.innerHTML = 'Current Cluster: '+userdata[0].clusters;
+                output1.innerHTML = 'Current Cluster: '+userdata[3].clusters;
             </script>
             <br>
         </div>
@@ -103,7 +103,7 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('rating');
-                output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+                output1.innerHTML = 'Rating &#11088: '+userdata[3].ratings;
             </script>
             <br>
         </div>
@@ -126,12 +126,12 @@
 
    
     <div class="playerID1 active_pla">
-        <img src="images/man.svg" alt="">
+        <img src="images/woman.svg" alt="">
         <div id="name1">
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('name1');
-                output1.innerHTML = 'ID: '+userdata[0].id;
+                output1.innerHTML = 'ID: '+userdata[3].id;
             </script>
             <br>
         </div>
@@ -140,7 +140,7 @@
 
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('cluster1');
-                output1.innerHTML = 'Cluster: '+userdata[0].clusters;
+                output1.innerHTML = 'Cluster: '+userdata[3].clusters;
 
 
             document.getElementById("runbtn").addEventListener("click", change);
@@ -148,7 +148,7 @@
             function change() {
                 var userdata = JSON.parse(blkjk_test);
                 var output1 = document.getElementById('cluster1');
-                output1.innerHTML = 'Cluster: '+userdata[0].clusters;
+                output1.innerHTML = 'Cluster: '+userdata[3].clusters;
             }
 
             </script>
@@ -159,14 +159,14 @@
             <script type="text/javascript">
                 var userdata = JSON.parse(pubg);
                 var output1 = document.getElementById('rating2');
-                output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+                output1.innerHTML = 'Rating &#11088: '+userdata[3].ratings;
 
                 document.getElementById("runbtn").addEventListener("click", change);
 
                 function change() {
                     var userdata = JSON.parse(blkjk_test);
                     var output1 = document.getElementById('rating2');
-                    output1.innerHTML = 'Rating &#11088: '+userdata[0].ratings;
+                    output1.innerHTML = 'Rating &#11088: '+userdata[3].ratings;
                 }
             </script>
             <br>
